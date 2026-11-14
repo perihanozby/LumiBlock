@@ -1,0 +1,26 @@
+extends RefCounted
+
+func run(t) -> void:
+	var root=load("res://app/app_root.tscn").instantiate()
+	t.add_child(root)
+	var dummy:=PackedScene.new()
+	var control:=LBScreen.new()
+	dummy.pack(control)
+	control.free()
+	root.router.register("home",dummy)
+	root.router.register("stats",dummy)
+	root.router.go("home")
+	root.router.settle_transition()
+	root.router.go("stats")
+	root.router.go("home")
+	t.check_eq(root.router.current_id,"stats","transition blocks double navigation")
+	root.router.settle_transition()
+	root.router.back()
+	root.router.settle_transition()
+	t.check_eq(root.router.current_id,"home","back restores previous")
+	root.router.push_modal(dummy)
+	t.check_eq(root.router.modals.size(),1,"modal opens")
+	root.router.back()
+	t.check_eq(root.router.modals.size(),0,"back closes modal")
+	root.queue_free()
+	await t.get_tree().process_frame

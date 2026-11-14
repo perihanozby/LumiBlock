@@ -1,0 +1,14 @@
+.godot/
+.import/
+build/
+exports/
+*.apk
+*.aab
+*.keystore
+*.jks
+secrets/
+.env
+.android-user/
+.android-sdk-home/
+.runtime/
+tests/last_run.txt

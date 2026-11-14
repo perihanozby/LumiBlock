@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#0b1322;color:#dbe2f8;}body{overscroll-behavior:none;min-height:100vh;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"error-container":"#93000a","on-error-container":"#ffdad6","on-error":"#690005","on-tertiary-fixed":"#400010","on-secondary-fixed":"#00201c","on-background":"#dbe2f8","inverse-primary":"#494bd6","on-surface-variant":"#c7c4d7","on-tertiary-fixed-variant":"#891933","on-tertiary-container":"#5b001a","secondary-fixed":"#62fae3","secondary-fixed-dim":"#3cddc7","surface-container":"#18202f","on-tertiary":"#67001f","tertiary":"#ffb2b9","secondary-container":"#03c6b2","surface-container-lowest":"#060e1d","tertiary-fixed":"#ffdadc","surface-bright":"#31394a","surface":"#0b1322","inverse-on-surface":"#293041","error":"#ffb4ab","surface-tint":"#c0c1ff","tertiary-fixed-dim":"#ffb2b9","background":"#0b1322","surface-container-low":"#141c2b","primary-container":"#8083ff","surface-container-high":"#222a3a","surface-dim":"#0b1322","on-primary-fixed":"#07006c","surface-variant":"#2d3545","primary-fixed-dim":"#c0c1ff","on-secondary":"#003731","outline-variant":"#464554","on-primary":"#1000a9","surface-container-highest":"#2d3545","tertiary-container":"#ea6479","on-secondary-fixed-variant":"#005047","primary":"#c0c1ff","secondary":"#44e2cd","outline":"#908fa0","primary-fixed":"#e1e0ff","on-secondary-container":"#004d44","on-surface":"#dbe2f8"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"0.5rem","space-sm":"0.5rem","space-md":"0.875rem","space-xl":"2rem","gutter":"0.75rem","space-lg":"1.25rem","margin":"1.25rem","margin-mobile":"1rem","space-xs":"0.25rem"},"fontFamily":{"body-lg":["Plus Jakarta Sans"],"label-lg":["Outfit"],"headline-lg":["Outfit"],"headline-sm":["Outfit"],"label-sm":["Outfit"],"body-md":["Plus Jakarta Sans"],"display-score":["Outfit"],"label-md":["Outfit"],"body-sm":["Plus Jakarta Sans"],"headline-md":["Outfit"]},"fontSize":{"body-lg":["16px",{"lineHeight":"24px","fontWeight":"500"}],"label-lg":["15px",{"lineHeight":"20px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-lg":["32px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"26px","fontWeight":"600"}],"label-sm":["10px",{"lineHeight":"12px","letterSpacing":"0.08em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-score":["48px",{"lineHeight":"52px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"700"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface min-h-screen flex flex-col relative overflow-x-hidden selection:bg-primary selection:text-on-primary"><div class="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(circle_at_50%_20%,rgba(128,131,255,0.14),transparent_55%),radial-gradient(circle_at_50%_80%,rgba(3,198,178,0.08),transparent_60%)]"></div><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-6 px-margin flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm select-none"><span>10:42</span><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[14px]">wifi</span><span class="material-symbols-outlined text-[14px]">battery_full</span><span class="text-[11px] font-bold">94%</span></div></div><div class="h-14 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-xl bg-surface-container-high flex items-center justify-center text-primary shadow-inner"><span class="material-symbols-outlined text-[20px]">view_in_ar</span></div><h1 class="font-headline-sm text-headline-sm tracking-tight text-on-surface">Home</h1></div><div class="flex items-center gap-space-sm"><button class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors active:scale-95"><span class="material-symbols-outlined">notifications</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/ALJJyrB9hYyDPHLrIyvtoZ_fDjnc0aY1GnxKSiFZBisIC2GJ11iWMC80PouLfwP-dumoIiJhwoLzE54QB4NtybUHlMXwuJbxhT1VS1fzTb8E8hQmOl27k0ksA67a46TZPyZzPtXNyDyZTY-sVug_v0JsCeLraLfC1gDFDe2ebz9coZ1XzrHR4xJKw7afpWfzF1zSXGI2jIKPRxJFqYJHhH_ZEHEOAgYR4iRLx_B8Lt7h7NY-"/></div></div></header><main class="flex-1 flex flex-col relative w-full pt-20 pb-28 px-margin-mobile bg-surface z-10"><div class="flex flex-col w-full gap-space-lg select-none">
+<!-- Top HUD Header & Countdown -->
+<section class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-secondary shadow-[0_0_8px_#44e2cd]"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Event Protocol</span>
+</div>
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant shadow-inner">
+<span class="material-symbols-outlined text-[14px] text-tertiary">timer</span>
+<span class="font-label-sm text-label-sm font-semibold tracking-wider text-on-surface" id="daily-countdown">07:18:42</span>
+</div>
+</div>
+<div class="flex items-baseline justify-between mt-1">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-none">DAILY CHALLENGE</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">calendar_month</span>
+          Today: <strong class="text-on-surface font-semibold">March 28</strong>
+</p>
+</div>
+<div class="flex items-center gap-1 px-3 py-1.5 rounded-full bg-surface-container-highest shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="font-label-md text-label-md text-tertiary">4 Day Streak</span>
+<span class="ml-1 text-[10px] font-label-sm px-1.5 py-0.5 rounded-full bg-tertiary-container text-on-tertiary font-black tracking-tight">1.5x</span>
+</div>
+</div>
+</section>
+<!-- Weekly 7-Day Milestone Strip -->
+<section class="p-space-md rounded-xl bg-surface-container-low shadow-[0_8px_20px_rgba(0,0,0,0.35)] flex flex-col gap-space-sm relative overflow-hidden">
+<div class="absolute -right-8 -top-8 w-28 h-28 bg-primary/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Weekly Constellation</span>
+<span class="font-label-sm text-label-sm text-primary">Stage 4 of 7</span>
+</div>
+<div class="grid grid-cols-7 gap-1.5 pt-1">
+<!-- Mon Completed -->
+<div class="flex flex-col items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">M</span>
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-secondary shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+</div>
+<!-- Tue Completed -->
+<div class="flex flex-col items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">T</span>
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-secondary shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+</div>
+<!-- Wed Completed -->
+<div class="flex flex-col items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">W</span>
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-secondary shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+</div>
+<!-- Thu Active Today -->
+<div class="flex flex-col items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-tertiary font-black">THU</span>
+<div class="w-9 h-9 rounded-full bg-gradient-to-b from-tertiary to-tertiary-container flex items-center justify-center text-on-tertiary shadow-[0_0_12px_#ea6479,inset_0_1px_2px_rgba(255,255,255,0.5)] transform scale-105">
+<span class="w-2.5 h-2.5 rounded-full bg-on-tertiary animate-ping"></span>
+</div>
+</div>
+<!-- Fri Locked -->
+<div class="flex flex-col items-center gap-1.5 opacity-60">
+<span class="font-label-sm text-label-sm text-on-surface-variant">F</span>
+<div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+</div>
+<!-- Sat Locked -->
+<div class="flex flex-col items-center gap-1.5 opacity-60">
+<span class="font-label-sm text-label-sm text-on-surface-variant">S</span>
+<div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+</div>
+<!-- Sun Grand Reward Locked -->
+<div class="flex flex-col items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-primary-fixed font-bold">SUN</span>
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary shadow-[0_0_10px_rgba(192,193,255,0.25)]">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">redeem</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Today's Special Mission Card -->
+<section class="rounded-xl bg-surface-container p-space-md shadow-xl flex flex-col gap-space-md relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-0.5">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Daily Protocol #84</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Aurora Constellation Puzzle</h3>
+</div>
+<div class="flex flex-col items-end gap-1">
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm tracking-wide font-bold">
+          MASTER
+        </span>
+<!-- Star preview (2 filled, 1 empty) -->
+<div class="flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px] text-outline">star</span>
+</div>
+</div>
+</div>
+<!-- Modifier Callout -->
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex items-start gap-space-sm shadow-inner">
+<div class="w-8 h-8 rounded-lg bg-surface-variant flex items-center justify-center text-primary flex-shrink-0 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)]">
+<span class="material-symbols-outlined text-[20px]">lens_blur</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold tracking-wide">Board Anomaly: Obsidian Obstacles</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight mt-0.5">
+          Pre-filled obsidian monoliths embedded on 8x8 matrix. Requires 2 adjacent line cleans to shatter.
+        </p>
+</div>
+</div>
+<!-- Objectives Checklist -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Mission Objectives</span>
+<!-- Objective 1: Completed -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-high">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-6 h-6 rounded-md bg-secondary/20 flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[16px] font-bold">check_box</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface truncate line-through opacity-80">Clear 25 Turquoise Lines</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold pl-2 flex-shrink-0">25 / 25</span>
+</div>
+<!-- Objective 2: In Progress -->
+<div class="flex flex-col p-2.5 rounded-lg bg-surface-container-high gap-1.5">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-6 h-6 rounded-md bg-surface-container-lowest flex items-center justify-center text-outline flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check_box_outline_blank</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface truncate">Shatter 6 Obsidian Blocks</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary font-bold pl-2 flex-shrink-0">4 / 6</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-lowest overflow-hidden">
+<div class="h-full bg-tertiary rounded-full shadow-[0_0_8px_#ea6479]" style="width: 66.6%;"></div>
+</div>
+</div>
+<!-- Objective 3: In Progress -->
+<div class="flex flex-col p-2.5 rounded-lg bg-surface-container-high gap-1.5">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-6 h-6 rounded-md bg-surface-container-lowest flex items-center justify-center text-outline flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check_box_outline_blank</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface truncate">10,000 Pts (No Powerups)</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold pl-2 flex-shrink-0">7,850 / 10,000</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-lowest overflow-hidden">
+<div class="h-full bg-primary-container rounded-full shadow-[0_0_8px_#8083ff]" style="width: 78.5%;"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Completion Rewards Card -->
+<section class="rounded-xl bg-surface-container-low p-space-md shadow-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Mission Bounty</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">lock_open</span> Guaranteed
+      </span>
+</div>
+<div class="grid grid-cols-3 gap-space-xs">
+<!-- Reward 1: Exclusive Skin Thumbnail -->
+<div class="flex flex-col items-center text-center p-2 rounded-lg bg-surface-container">
+<div class="w-12 h-12 rounded-lg bg-gradient-to-br from-primary via-secondary to-tertiary p-0.5 shadow-md flex items-center justify-center mb-1.5 relative">
+<img class="w-full h-full object-cover rounded-md" data-alt="A luminous neon prism block skin floating with chromatic aurora streaks, deep iridescent turquoise and violet glass edges with high internal luminescence against obsidian background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiEsQDZg3HJ7Kw9SF1Nlon0SuPTsbE-A8Nbq_wjZU5xUsH_7sWfipKovvIsg8RrEsoD6x90C-sCVLEeTjU9q5WrTXFUdPybj2QZXHgT2yIK5-zDGgjp5iXtz2JezUd7CnQ80NoFNXnjHNE5HACnkVAEpvNS_i27JvumjHpLiiRGwcDMBzgbftUxMvbY6XHLtBrr8T4kWYBlOMxEFOr6Kg-1pAu-TwLNuexIp_Rt6c"/>
+<span class="absolute -top-1.5 -right-1.5 bg-tertiary text-on-tertiary font-label-sm text-[8px] px-1 rounded-full uppercase font-black">Skin</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold leading-tight line-clamp-1">Aurora Skin</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[10px]">Tier IV Custom</span>
+</div>
+<!-- Reward 2: Star Gems -->
+<div class="flex flex-col items-center text-center p-2 rounded-lg bg-surface-container">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary mb-1.5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">diamond</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold leading-tight">+350 Gems</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[10px]">Starlight Shards</span>
+</div>
+<!-- Reward 3: Reroll Ticket -->
+<div class="flex flex-col items-center text-center p-2 rounded-lg bg-surface-container">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary mb-1.5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]">
+<span class="material-symbols-outlined text-[26px]">casino</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-bold leading-tight">+1 Reroll</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[10px]">Tactical Tray</span>
+</div>
+</div>
+</section>
+<!-- Large Tactile CTA Button -->
+<div class="w-full flex flex-col gap-1.5">
+<button class="w-full py-4 px-6 rounded-full bg-gradient-to-r from-primary-container via-secondary-container to-secondary text-on-secondary-container font-label-lg text-label-lg tracking-wide uppercase shadow-[0_12px_28px_rgba(3,198,178,0.35),inset_0_1px_2px_rgba(255,255,255,0.7)] active:scale-[0.98] transition-transform flex items-center justify-center gap-space-sm relative overflow-hidden group">
+<div class="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<span class="material-symbols-outlined text-[22px] font-bold">play_arrow</span>
+<span>CONTINUE MISSION</span>
+<span class="ml-1 text-[12px] font-label-sm px-2 py-0.5 rounded-full bg-on-secondary-container/20 text-on-secondary-container font-bold">
+        Attempt 1/3
+      </span>
+</button>
+<div class="flex items-center justify-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">info</span>
+<span class="font-body-sm text-body-sm text-[11px]">Free revival included for Star Pass holders</span>
+</div>
+</div>
+<!-- Top Solvers Leaderboard Snippet -->
+<section class="rounded-xl bg-surface-container-low p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-secondary">leaderboard</span>
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Top Daily Solvers</span>
+</div>
+<button class="font-label-sm text-label-sm text-primary hover:underline">Full Ladder</button>
+</div>
+<div class="flex flex-col gap-1.5">
+<!-- Rank #1 -->
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="font-label-sm text-label-sm w-4 text-center font-bold text-secondary">1</span>
+<img class="w-8 h-8 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="A portrait avatar of a futuristic cyberpunk game character with glowing turquoise visor, sharp neon reflections, midnight blue ambient light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKk5oDchRk4iSl88Rrh2AiXbtRGI5eVJkj1_eU-kN-LJas0ypsQbsQOvBzZC3aInKnMsZ_9F1yXsfVDDiVhcHyqWnBxzkOIbyVcTpxwkghaO9FYLviUXJsZzAo30YbjPScYO1rL2F_WQw4sjmCV0juLHWra7PamJYp9JtqiSwlJ0mzUixEG5n-Uqilee5u6Y73Ib8DorLEk4qJTREvl48qZLADvhJfpmYBSAG0Kn8"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Vesper_Void</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px]">Clean Sweep • 02:41</span>
+</div>
+</div>
+<span class="font-label-md text-label-md text-secondary font-bold">14,920</span>
+</div>
+<!-- Rank #2 -->
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="font-label-sm text-label-sm w-4 text-center font-bold text-on-surface-variant">2</span>
+<img class="w-8 h-8 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Stylized portrait avatar of a digital architect in deep space, holographic amber eyewear, minimal dark backdrop with sharp luminous prism accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA46BmgiIO86slf80unnYA3QsqkKmaxmp_7JhJPmNng7jP1MtYYUQIRQdGJsmEgmR7SZRyGkucvUENIB4nawtDnBAkEvNuWcvAQZYqnp7RAgGL4txa0CFkRQ0WlX7KczvMgZjCAwL2NiCb-KbbIaAWDtsKvyTnLFeW_LdQMhF5ZuO_ZXQ7rHPywGSoLTsHSN_iSgmiLZ0vrlJlcRo7Z1ES-g3EFT9ccOYkfinUGIZM"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">NovaTactics</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px]">Flawless Clear • 03:04</span>
+</div>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-bold">13,850</span>
+</div>
+<!-- Rank #3 -->
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="font-label-sm text-label-sm w-4 text-center font-bold text-tertiary">3</span>
+<img class="w-8 h-8 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Tactile glowing geometric digital avatar, crystalline violet profile, futuristic esports puzzle champion aesthetic with soft rim lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPsbqFt3rKUEa1tHCPkCSO6d1pJMdjHukh5JX6aClrL6_mxh-ptOb0_QgZ0JR7tlkPB_sULirKNj3fYOKCZLNOANqm2JFUPjAxlR_ipzSXhQB7wsQQvjGn__mRJoEWZtLv4lCG6OF5fH748ROUq7bcU8XWTGOmkNRaMX3yyEAEode_4X7qj9XMh82tIam3EdHNP_ueubsahE0O6xfBgsqCvs1RRJYmZOtvi8WnYlk"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Kaelen_Block</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px]">Combo x8 • 03:22</span>
+</div>
+</div>
+<span class="font-label-md text-label-md text-tertiary font-bold">12,410</span>
+</div>
+</div>
+</section>
+</div>
+<script>
+  (function initDailyTimer() {
+    let secondsLeft = 7 * 3600 + 18 * 60 + 42;
+    const el = document.getElementById('daily-countdown');
+    if (!el) return;
+
+    setInterval(() => {
+      if (secondsLeft <= 0) return;
+      secondsLeft--;
+      const hrs = String(Math.floor(secondsLeft / 3600)).padStart(2, '0');
+      const mins = String(Math.floor((secondsLeft % 3600) / 60)).padStart(2, '0');
+      const secs = String(secondsLeft % 60).padStart(2, '0');
+      el.textContent = `${hrs}:${mins}:${secs}`;
+    }, 1000);
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe pointer-events-none" data-active-classes="text-secondary bg-surface-bright/50 shadow-inner"><div class="max-w-[390px] mx-auto px-margin-mobile pb-3 pointer-events-auto"><div class="bg-surface-container-high/85 backdrop-blur-xl rounded-full p-1.5 shadow-[0_12px_28px_rgba(0,0,0,0.6)] flex items-center justify-between"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1 rounded-full transition-transform active:scale-95 text-secondary bg-surface-bright/50 shadow-inner" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">auto_awesome</span><span class="font-label-sm text-label-sm mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1 rounded-full text-on-surface-variant hover:text-on-surface transition-transform active:scale-95" data-path="play" href="#"><span class="material-symbols-outlined text-[22px]">extension</span><span class="font-label-sm text-label-sm mt-0.5">Play</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1 rounded-full text-on-surface-variant hover:text-on-surface transition-transform active:scale-95" data-path="stats" href="#"><span class="material-symbols-outlined text-[22px]">bar_chart</span><span class="font-label-sm text-label-sm mt-0.5">Stats</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1 rounded-full text-on-surface-variant hover:text-on-surface transition-transform active:scale-95" data-path="settings" href="#"><span class="material-symbols-outlined text-[22px]">settings</span><span class="font-label-sm text-label-sm mt-0.5">Settings</span></a></div><div class="flex justify-center mt-2"><div class="w-32 h-1 bg-on-surface-variant/40 rounded-full"></div></div></div></nav></body></html>
