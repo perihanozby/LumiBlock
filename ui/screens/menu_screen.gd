@@ -94,6 +94,7 @@ func rebuild() -> void:
 
 func label(key: String,role: String = "body",value: Variant = null,parent: Node = null) -> Label:
 	var node:=Label.new()
+	node.mouse_filter=Control.MOUSE_FILTER_IGNORE
 	node.theme_type_variation="LB_"+role
 	node.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
 	node.size_flags_horizontal=Control.SIZE_EXPAND_FILL
@@ -145,9 +146,7 @@ func _home() -> void:
 		button("home.new_game",func(): app.confirm_new("classic"))
 	else: button("home.play",func(): app.play_classic(),true)
 	var daily:=card()
-	daily.get_parent().gui_input.connect(func(event: InputEvent):
-		if event is InputEventScreenTouch and event.pressed: app.show_screen("daily")
-		elif event is InputEventMouseButton and event.pressed and event.button_index==MOUSE_BUTTON_LEFT: app.show_screen("daily"))
+	bind_card_navigation(daily.get_parent(),"daily")
 	label("home.daily","title",null,daily)
 	label("daily.date","caption",LocaleFormat.date(app.today(),LocalizationService.locale),daily)
 	label("daily.mission","body_s",app.mission_text(),daily)
@@ -159,9 +158,28 @@ func _home() -> void:
 	label("home.footer","caption")
 	_fit_brand.call_deferred(brand)
 
+func bind_card_navigation(panel: Control,destination: String) -> void:
+	var press:={"active":false,"point":Vector2.ZERO}
+	scroll.scroll_started.connect(func(): press.active=false)
+	panel.gui_input.connect(func(event: InputEvent):
+		# GUI uses one mouse path (real or emulated), and only a completed tap.
+		# Child buttons own their taps; their bubbling events must not navigate twice.
+		if get_viewport().gui_get_hovered_control() is BaseButton: return
+		if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_LEFT:
+			if event.pressed:
+				press.active=true
+				press.point=event.position
+			else:
+				var activate: bool=press.active and event.position.distance_to(press.point)<8 and Rect2(Vector2.ZERO,panel.size).has_point(event.position)
+				press.active=false
+				if activate: app.show_screen(destination)
+		elif event is InputEventMouseMotion and press.active and event.position.distance_to(press.point)>=8:
+			press.active=false)
+
 func _fit_brand(brand: Control) -> void:
 	if not is_instance_valid(brand) or not brand.is_inside_tree(): return
-	var excess:=column.get_combined_minimum_size().y-(get_viewport_rect().size.y-Tokens.MARGIN*2)
+	var available:=scroll.size.y if scroll.size.y>0 else get_viewport_rect().size.y-Tokens.MARGIN*2
+	var excess:=column.get_combined_minimum_size().y-available
 	if excess>0: brand.custom_minimum_size.y=maxf(88,brand.custom_minimum_size.y-excess)
 
 func _daily() -> void:

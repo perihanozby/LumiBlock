@@ -19,3 +19,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command ". ./tools/environment.ps
 ```
 
 Physical-device, visual, audio listening and native translation review require separate evidence and approval. Current results are in docs/ACCEPTANCE_MATRIX.md; older reports are historical.
+
+Desktop UI: use Invoke-GodotChecked with --path . --rendering-driver opengl3 res://tests/ui_runner.tscn. Stress: same flags and res://tools/stress_play.tscn. Screenshot suite: res://tools/review_capture.tscn -- --pack2 (review) or -- --actual (regression output); compare with --headless --script res://tools/compare_screens.gd. Golden images were authorized by Review1 approval/Review2 waiver; do not overwrite them merely to hide regressions. All capture fixtures now fail on save errors. The 10,000-step fractional-time diagnostic is tools/probe_save_precision.gd; regular runner includes a bounded regression and tamper tests.
+
+Touch-only regression selection:run ui_runner.tscn with -- --suite=test_touch_pipeline.gd (all suites remain default;zero matching suites fails). The real windowed viewport path uses Input.parse_input_event(ScreenTouch/ScreenDrag,index0),both pointing-emulation directions and native mouse fields. No Control handler/signal is called to simulate gestures. Reproduction before fix:exit1/four failures;repaired pipeline and full UI pass. See docs/TOUCH_INPUT_FIX.md.

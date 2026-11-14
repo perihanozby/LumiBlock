@@ -1,0 +1,161 @@
+11-15 00:50:17.351 29432 29432 I Finsky  : [2] VerifyApps: Install-time verification requested for package com.perih.lumiblock, PackageManager id = 2, Verifier id = 098ea145-c6a2-48ed-b444-feaed26309c7
+11-15 00:50:17.372 29432 29533 I Finsky  : [4815] VerifyApps: [ADV] Starting verification task for com.perih.lumiblock (id=2)
+11-15 00:50:17.372 29432 29533 I Finsky  : [4815] VerifyApps: [ADV] Calling Verifier app for com.perih.lumiblock
+11-15 00:50:17.501 29432  3982 W Finsky  : [4904] VerifyApps: [ADV] Failed to resolve session ID via PackageInstaller fallback for com.perih.lumiblock (id=2)
+11-15 00:50:17.509 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Calling Verifier app for com.perih.lumiblock
+11-15 00:50:17.510 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Call Strategy for com.perih.lumiblock (id=2): CALL_VERIFIER_APP
+11-15 00:50:17.515 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Calling Verifier app for com.perih.lumiblock (id=2)
+11-15 00:50:17.540 31190 31234 I VerificationCheck: Verifying com.perih.lumiblock (id: 1525e38806e5b515f26ac8d681b1fc65)
+11-15 00:50:17.569 31190 31228 I VerificationCheck: Verification finished for com.perih.lumiblock. Result: Pass(reason=SHELL_INSTALL, message=null)
+11-15 00:50:17.602 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Verifier app returned response for com.perih.lumiblock (id=2): verdict=1, reason=2
+11-15 00:50:17.602 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Scan finished for com.perih.lumiblock (id=2) with verdict 0
+11-15 00:50:17.621 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Enforcing policy 0 for com.perih.lumiblock. Scan verdict: 0
+11-15 00:50:17.621 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Enforced verdict for com.perih.lumiblock: VERIFICATION_ALLOW
+11-15 00:50:17.621 29432 29554 I Finsky  : [4818] VerifyApps: [ADV] Policy enforced for com.perih.lumiblock (id=2). Verdict: VERIFICATION_ALLOW
+11-15 00:50:17.621 29432  3981 I Finsky  : [4903] VerifyApps: Anti-malware verification task started for package=com.perih.lumiblock
+11-15 00:50:17.819 29432  3981 I Finsky  : [4903] VerifyApps: chooseScanResult for package=com.perih.lumiblock with timeout=15000ms
+11-15 00:50:17.820 29432 29555 I Finsky  : [4819] VerifyApps: Starting APK Analysis scan for com.perih.lumiblock.
+11-15 00:50:17.822 29432 29555 I Finsky  : [4819] Scanning package com.perih.lumiblock contents with client side protections. File: [Qkk_g9MoxCPnhks0C7rveTRkSE52Xvj-L5jIxte23IE]
+11-15 00:50:19.309 29432  3982 I Finsky  : [4904] VerifyApps: Verification package=com.perih.lumiblock, id=2, response=0, upload_requested=false, enable_ecm=false
+11-15 00:50:19.343 29432  3982 I Finsky  : [4904] VerifyApps: PAM result saving to datastore delayed for package: com.perih.lumiblock
+11-15 00:50:19.346 29432  3981 I Finsky  : [4903] VerifyApps: firstScanResult for package=com.perih.lumiblock: 0
+11-15 00:50:31.575 29432 29552 I Finsky  : [4817] VerifyApps: APK Analysis scan finished for com.perih.lumiblock. Verdict: 0
+11-15 00:50:31.577 29432  3981 I Finsky  : [4903] VerifyApps: overallScanResult for package=com.perih.lumiblock: 0
+11-15 00:50:31.577 29432  3981 I Finsky  : [4903] VerifyApps: chooseScanResult returning verdict 0 for package=com.perih.lumiblock
+11-15 00:50:31.586 29432  3981 I Finsky  : [4903] VerifyApps: Starting required split types check for com.perih.lumiblock.
+11-15 00:50:31.590 29432  3981 I Finsky  : [4903] VerifyApps: Required split types check successful for com.perih.lumiblock.
+11-15 00:50:31.636 29432 29432 I Finsky  : [2] VerifyApps: Install-time verification complete: id=2, package_name=com.perih.lumiblock
+11-15 00:50:31.765  1691  2056 W PackageManager: Skipping provider name com.perih.lumiblock.fileprovider (in package com.perih.lumiblock): name already used by com.perih.lumiblock
+11-15 00:50:31.953  1363  2168 E cutils  : Failed to open(/data/misc/profiles/cur/10/com.perih.lumiblock/primary.prof): No such file or directory
+11-15 00:50:31.953  1363  2168 E installd: Failed to prepare /data/misc/profiles/cur/10/com.perih.lumiblock/primary.prof: No such file or directory
+11-15 00:50:31.953  1691  2056 E ArtManagerService: Failed to prepare profile for com.perih.lumiblock:/data/app/~~QFnuwbjl6gcIEzsqxHrU1A==/com.perih.lumiblock-Sfz6-Pj7DSJ1u1MleqTM4g==/base.apk
+11-15 00:50:31.954  1691  2056 I InstallationStatistic: com.perih.lumiblock|null|17190|927|71|1184|14290|0
+11-15 00:50:31.954  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.954  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:32.002  1691  2283 I MiuiCompatModePackages: package com.perih.lumiblock updated, removing config
+11-15 00:50:32.020  2810  2962 E InstallApkReceiver: install:package:com.perih.lumiblock
+11-15 00:50:32.023  4325  4800 D AppInstalledReceiver: packageName: com.perih.lumiblock
+11-15 00:50:32.023  4325  4325 I InstalledAppMonitor: com.perih.lumiblockonReceive add pkg=com.perih.lumiblock
+11-15 00:50:32.024  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+11-15 00:50:32.024  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+11-15 00:50:32.024  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+11-15 00:50:32.037  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:50:32.038  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:50:32.039  2755  2755 D ImsResolver: maybeAddedImsService, packageName: com.perih.lumiblock
+11-15 00:50:32.040  6508  6508 I WakePathManager: PackageMonitor. onPackageAdded: packageName =com.perih.lumiblock
+11-15 00:50:32.044  2419  2419 W MiuiFullScreenGestureProxy: packageMonitor   onPackageModified  packageName=com.perih.lumiblock
+11-15 00:50:32.048  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+11-15 00:50:32.048  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 00:50:32.055  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.vsm.sdk.receiver.PackageBroadcastReceiver
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.sdk.wp.core.siteadvisor.service.SiteAdvisorReceiver
+11-15 00:50:32.066  4325  6754 I GameBoosterNewApp: com.perih.lumiblock isGameFromJson false
+11-15 00:50:32.078 29432 29432 I Finsky  : [2] AIM: AppInfoCacheUpdater -> invalidating apps: [com.perih.lumiblock]
+11-15 00:50:32.084  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x5000010 pkg=com.google.android.packageinstaller (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:50:32.086 29432 29552 I Finsky  : [4817] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.perih.lumiblock]
+11-15 00:50:32.095  4325  6754 I GameBoosterNewApp: com.perih.lumiblock isGameFromLocal false
+11-15 00:50:32.262  6508  4091 I WakePathManager: request: ["com.microsoft.appmanager","cn.wps.xiaomi.abroad.lite","com.google.android.apps.podcasts","com.whatsapp","com.google.android.apps.docs.editors.sheets","com.google.android.apps.authenticator2","arvento.main","com.openai.chatgpt","com.google.android.verifier","com.ziraat.ziraatmobil","com.google.ar.core","gov.gib.GibTvdMobil.temassizmobil","com.google.android.apps.tachyon","com.garanti.cepsubesi","com.miui.android.fashiongallery","com.teamviewer.quicksupport.addon.universal","com.vodafone.selfservis","com.duokan.phone.remotecontroller","com.google.android.apps.docs","com.google.android.contactkeys","com.perih.lumiblock","com.orbia.productivity","com.mi.global.bbs","com.kariyer.androidproject","com.google.android.apps.photos","com.mehmethoca.vocafire","com.pepapp","com.akbank.android.apps.akbank_direkt","com.linkedin.android","com.sahibinden","com.commitkingdom.app","com.google.android.safetycore","com.miui.mediaeditor","tr.gov.turkiye.edevlet.kapisi","com.perihanozbay.echofold","com.mi.global.shop","com.wsandroid.suite","com.google.android.apps.youtube.music","com.google.android.apps.magazines","com.example.lumiblock","cn.wps.moffice_eng"]
+11-15 00:50:32.277  1691  4904 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.perih.lumiblock/com.godot.game.GodotAppLauncher} from uid 2000
+11-15 00:50:32.294   990   990 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.perih.lumiblock feature:AppClassifier feedback = 0
+11-15 00:50:32.303 25133  4127 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-15 00:50:32.305   990  1027 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.perih.lumiblock,-1,1691,4904)
+11-15 00:50:32.305   990  1027 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.perih.lumiblock,-1,1691,4904)
+11-15 00:50:32.306 25133  4156 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-15 00:50:32.476  1691  1845 I ActivityManager: Start proc 4211:com.perih.lumiblock/u0a738 for pre-top-activity {com.perih.lumiblock/com.godot.game.GodotAppLauncher} caller=com.android.shell
+11-15 00:50:32.484  4211  4211 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+11-15 00:50:32.496 24281 24396 D AppStatChecker: first launch package: com.perih.lumiblock
+11-15 00:50:32.498  4211  4211 I perih.lumibloc: Late-enabling -Xcheck:jni
+11-15 00:50:32.507  3434  3434 D AppActiveReceiver: receive app active broadcast for: com.perih.lumiblock, install from: null
+11-15 00:50:32.523  4211  4211 I perih.lumibloc: Unquickening 20 vdex files!
+11-15 00:50:32.563  2810  3108 D IconCustomizer: Generate customized icon for com.perih.lumiblock.png
+11-15 00:50:32.649   990  1027 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,com.perih.lumiblock,4211,1691,3302)
+11-15 00:50:32.675 31345 31370 D AutoInstallService: onForegroundInfoChanged: com.perih.lumiblock
+11-15 00:50:32.675  4297  4324 I GST     : forePkg: com.perih.lumiblock, preForePkg: com.miui.home
+11-15 00:50:32.674  4701 21017 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.perih.lumiblock', mForegroundUid=10738, mForegroundPid=4211, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10089, mLastForegroundPid=2810, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+11-15 00:50:32.675  4325  4356 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.perih.lumiblock', mForegroundUid=10738, mForegroundPid=4211, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10089, mLastForegroundPid=2810, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+11-15 00:50:32.680  4325  4356 I GameBoosterService: onForegroundInfoChanged: Cur=com.perih.lumiblock	 last=com.miui.home
+11-15 00:50:32.681  4325  4356 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.perih.lumiblock', mForegroundUid=10738, mForegroundPid=4211, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10089, mLastForegroundPid=2810, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+11-15 00:50:32.775  4081  4081 I PI-ScanDispatch: service bind, pkgName = com.perih.lumiblock, installer = unknown, isReplace = false, firstGoogleTime = 1724788763116
+11-15 00:50:32.821  2419  2944 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=104][pkg = com.perih.lumiblock[enable_config = true
+11-15 00:50:32.891  4211  4211 I Perf    : Connecting to perf service.
+11-15 00:50:32.936  4211  4211 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-15 00:50:32.937  4211  4211 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-15 00:50:32.967 26129 31794 D IconCustomizer: Generate customized icon for com.perih.lumiblock.png
+11-15 00:50:33.045   990   990 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.perih.lumiblock feature:AppClassifier feedback = 0
+11-15 00:50:33.163  4211  4211 D View    : com.perih.lumiblock initForcedUseForceDark: 1
+11-15 00:50:33.172  4211  4211 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+11-15 00:50:33.172  4211  4211 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+11-15 00:50:33.186  4211  4211 D GodotActivity: Project command line parameters: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-15 00:50:33.187  4211  4211 D GodotActivity: Launch intent Intent { flg=0x10000000 cmp=com.perih.lumiblock/com.godot.game.GodotAppLauncher } with parameters []
+11-15 00:50:33.219  4211  4211 V GodotActivity: Creating new Godot fragment instance.
+11-15 00:50:33.355  4211  4211 V Godot   : Initializing Godot plugin registry
+11-15 00:50:33.382  4211  4211 I GodotPluginRegistry: Registering runtime plugin AndroidRuntime
+11-15 00:50:33.384  4211  4211 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-15 00:50:33.393  4211  4211 W linker  : Warning: "/data/app/~~QFnuwbjl6gcIEzsqxHrU1A==/com.perih.lumiblock-Sfz6-Pj7DSJ1u1MleqTM4g==/lib/arm64/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+11-15 00:50:33.418  4211  4211 V Godot   : Godot native layer initialization completed: true
+11-15 00:50:33.418  4211  4211 V Godot   : Setting up native layer with params: [--xr-mode, off, --fullscreen]
+11-15 00:50:33.488  4211  4211 V Godot   : Godot native layer setup completed
+11-15 00:50:33.488  4211  4211 V Godot   : OnInitRenderView: GodotFragment{c38499c} (5f2c4cdc-adf6-436b-a1fb-922150762a54 id=0x7f07002c)
+11-15 00:50:33.506 29432 29432 I Finsky  : [2] Received an install/uninstall event for package com.perih.lumiblock
+11-15 00:50:33.527  4211  4211 D Godot   : Render view should be transparent: false
+11-15 00:50:33.528  4211  4211 D Godot   : renderingDevice: opengl3 (ProjectSettings)
+11-15 00:50:33.528  4211  4211 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+11-15 00:50:33.571  4211  4211 V Godot   : OnStart: GodotFragment{c38499c} (5f2c4cdc-adf6-436b-a1fb-922150762a54 id=0x7f07002c)
+11-15 00:50:33.576  4211  4211 V Godot   : OnResume: GodotFragment{c38499c} (5f2c4cdc-adf6-436b-a1fb-922150762a54 id=0x7f07002c)
+11-15 00:50:33.599  4211  4211 W Looper  : PerfMonitor looperActivity : package=com.perih.lumiblock/com.godot.game.GodotAppLauncher time=554ms latency=336ms running=346ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem } historyMsgCount=3 (msgIndex=3 wall=315ms seq=3 running=141ms runnable=88ms io=20ms late=23ms h=android.app.ActivityThread$H w=110)
+11-15 00:50:33.600  4211  4211 W Looper  : PerfMonitor looperActivity : package=com.perih.lumiblock/com.godot.game.GodotAppLauncher time=1ms latency=889ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=4 (msgIndex=3 wall=315ms seq=3 running=141ms runnable=88ms io=20ms late=23ms h=android.app.ActivityThread$H w=110) (msgIndex=4 wall=554ms seq=4 running=346ms runnable=87ms io=32ms reclaim=8ms late=336ms h=android.app.ActivityThread$H w=159)
+11-15 00:50:33.641  1691  1844 W XSpaceManagerService: update XSpace App: packageName:com.perih.lumiblock, user:UserHandle{0}, action:android.intent.action.PACKAGE_ADDED
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: QUALCOMM build                   : 559e78c, Ib9d997268a
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: Build Date                       : 10/13/20
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.02
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: Local Branch                     : 
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: Remote Branch                    : 
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: Remote Branch                    : 
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: Reconstruct Branch               : 
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+11-15 00:50:33.645  4211  4411 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+11-15 00:50:33.650  2810  2810 D Launcher.Model: LauncherAppsCallback onPackageAdded|com.perih.lumiblock|UserHandle{0}
+11-15 00:50:33.650  4211  4411 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+11-15 00:50:33.659  2810  3031 D Launcher.Model: Got broadcast:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock (has extras) }
+11-15 00:50:33.665  2810  3031 D IconCustomizer: Generate customized icon for com.perih.lumiblock.png
+11-15 00:50:33.673  4211  4211 D SurfaceView: UPDATE null, mIsCastMode = false
+11-15 00:50:33.690  2810  3031 D AutoInstallsParser: isPAIPackageName: com.perih.lumiblock
+11-15 00:50:33.700  4211  4596 W RegularContextFactory: creating OpenGL ES 3.0 context :
+11-15 00:50:33.711  4211  4596 I godot   : Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+11-15 00:50:33.712  2810  3031 E Launcher.AllAppsList: Can't load postion for packageName: com.perih.lumiblock activityName: com.godot.game.GodotAppLauncher
+11-15 00:50:33.773  2810  3031 D Launcher.Model: onReceiveBackground, mAllAppsList=add=[(0, AppInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1, isLandscapePos=false)], remove=[], modified=[]
+11-15 00:50:33.786  2810  2810 D Launcher: add item to launcher when bind apps added, info=ShortcutInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1, isLandscapePos=false
+11-15 00:50:33.787  2810  2810 D Launcher: addItemToWorkspace, add item into db, item=ShortcutInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=6, container=-100, cellX=1, cellY=3, spanX=1, spanY=1, isLandscapePos=false
+11-15 00:50:33.788  2810  2810 D Launcher.Model: Insert item com.perih.lumiblock to database (1, 3) of screen 6
+11-15 00:50:33.788  2810  2810 D Launcher.CellLayout: updateCellOccupiedMarks, update, ShortcutInfo, id=653, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=6, container=-100, cellX=1, cellY=3, spanX=1, spanY=1, isLandscapePos=false
+11-15 00:50:33.789  2810  3031 D Launcher.ShortcutInfo: onAddToDatabase, this=ShortcutInfo, id=653, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=6, container=-100, cellX=1, cellY=3, spanX=1, spanY=1, isLandscapePos=false
+11-15 00:50:33.855  2810  2810 D Launcher.CellLayout: updateCellOccupiedMarks, update, ShortcutInfo, id=653, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=6, container=-100, cellX=1, cellY=3, spanX=1, spanY=1, isLandscapePos=false
+11-15 00:50:33.951  3583  3583 D AppActiveReceiver: receive app active broadcast for: com.perih.lumiblock, install from: null
+11-15 00:50:33.984  6508  4091 I WakePathManager: request: ["com.awesomeproject","cn.wps.xiaomi.abroad.lite","com.mi.health","com.miui.android.fashiongallery","com.google.android.apps.docs","com.perih.lumiblock","com.google.android.videos","com.orbia.productivity","com.google.android.apps.photos","com.miui.mediaeditor","com.perihanozbay.echofold","com.example.lumiblock"]
+11-15 00:50:34.952  4325 11584 I ThumbnailBlurUtils: loadPrivacyThumbnailBlurMonthly successd{"com.google.android.apps.podcasts":5,"com.microsoft.appmanager":5,"arvento.main":-1,"com.google.android.apps.youtube.music":27,"com.pepapp":5,"com.garanti.cepsubesi":-1,"com.miui.player":27,"com.linkedin.android":2,"com.xiaomi.mipicks":5,"com.kariyer.androidproject":-1,"com.ziraat.ziraatmobil":5,"com.miui.compass":5,"com.akbank.android.apps.akbank_direkt":-1,"com.sahibinden":5,"com.miui.huanji":5,"com.miui.calculator":5,"com.android.deskclock":5,"com.xiaomi.scanner":5,"com.wsandroid.suite":-1,"com.xiaomi.midrop":5,"com.miui.securitycenter":5,"com.android.vending":5,"com.android.chrome":-1,"com.google.android.apps.photos":-1,"com.mehmethoca.vocafire":-1,"com.android.stk":-1,"com.mi.android.globalFileexplorer":5,"com.openai.chatgpt":-1,"tr.gov.turkiye.edevlet.kapisi":5,"com.mipay.wallet.in":1,"com.google.android.apps.docs":5,"com.duokan.phone.remotecontroller":5,"com.miui.gallery":6,"com.google.android.youtube":-1,"com.google.android.apps.subscriptions.red":-1,"com.miui.screenrecorder":5,"com.google.android.apps.maps":-1,"com.google.android.apps.tachyon":5,"com.vodafone.selfservis":-1,"com.miui.videoplayer":27,"com.example.lumiblock":-1,"com.mi.global.shop":9,"com.google.android.apps.messaging":5,"com.miui.notes":5,"com.google.android.googlequicksearchbox":-1,"com.orbia.productivity":-1,"com.miui.miservice":5,"com.google.ar.lens":5,"com.google.android.contacts":-1,"com.perihanozbay.echofold":-1,"com.whatsapp":5,"com.miui.weather2":5,"cn.wps.moffice_eng":10,"com.miui.fm":27,"com.android.providers.downloads.ui":5,"com.android.thememanager":5,"com.google.android.apps.docs.editors.sheets":5,"com.google.android.dialer":-1,"com.android.camera":6,"com.google.android.gm":5,"gov.gib.GibTvdMobil.temassizmobil":-1,"com.google.android.apps.magazines":5,"com.commitkingdom.app":-1,"com.mi.global.bbs":2,"com.android.settings":-1,"com.xiaomi.glgm":5,"com.perih.lumiblock":-1,"com.google.android.apps.authenticator2":-1,"com.google.android.apps.googleassistant":-1,"com.android.soundrecorder":5,"com.google.android.calendar":5}
+11-15 00:50:35.100  4211  4596 I godot   : OpenGL API OpenGL ES 3.2 V@0502.0 (GIT@559e78c, Ib9d997268a, 1602616325) (Date:10/13/20) - Compatibility - Using Device: Qualcomm - Adreno (TM) 618
+11-15 00:50:35.108  4211  4596 D perih.lumibloc: PlayerBase::PlayerBase()
+11-15 00:50:35.108  4211  4596 D perih.lumibloc: TrackPlayerBase::TrackPlayerBase()
+11-15 00:50:35.108  4211  4596 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-15 00:50:35.158  4211  4596 D AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 1772
+11-15 00:50:35.229  4211  4596 I godot   : 
+11-15 00:50:35.428  1691  1842 D ArtManagerInternalImpl: /data/misc/iorapd/com.perih.lumiblock/2/com.godot.game.GodotAppLauncher/compiled_traces/compiled_trace.pb doesn't exist
+11-15 00:50:35.429  1691  1814 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ebed983 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher t1453} time:14123761
+11-15 00:50:35.432  1691  1842 I ActivityTaskManager: Displayed com.perih.lumiblock/com.godot.game.GodotAppLauncher: +3s154ms
+11-15 00:50:35.435   990   990 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.perih.lumiblock feature:AppClassifier feedback = 0
+11-15 00:50:35.445  1691  4885 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{177eb71 mode=1 rootTaskId=1453 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher}(1,1)
+11-15 00:50:35.469  3585  3585 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=com.perih.lumiblock, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-15 00:50:36.201  4211  4596 V Godot   : OnGodotSetupCompleted
+11-15 00:50:36.332  4211  4596 V Godot   : OnGodotMainLoopStarted
+11-15 00:50:36.437  4211  4289 I perih.lumibloc: Explicit concurrent copying GC freed 73236(6271KB) AllocSpace objects, 8(1100KB) LOS objects, 49% free, 2548KB/5097KB, paused 32us total 11.928ms
+11-15 00:50:36.479   990   990 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.perih.lumiblock feature:AppClassifier feedback = 0
+11-15 00:50:37.369  1053  1053 W Layer   : [Bounds for - com.perih.lumiblock/com.godot.game.GodotAppLauncher#0] sync point 26 wait timeout 1005269895 for com.perih.lumiblock/com.godot.game.GodotAppLauncher#0

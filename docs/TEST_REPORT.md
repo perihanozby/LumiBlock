@@ -1,23 +1,38 @@
-﻿# Current test report — 2026-11-14
+# Current touch repair verification - 0.2.1/code3
 
-Fresh resume baseline: parser exit 0; core exit 0, 26329 checks, 0 failures. Exact final ten lines were shown to the user before Phase 3. Evidence: build/evidence/phase3-resume-*.
+Before fix:real viewport ScreenTouch/ScreenDrag test exits1,5checks/4failures;Settings/Stats do not scroll and neither volume slider changes (build/evidence/touch-repro.*). Failing U08/U15/U16 recorded before fixing.
 
-Final Phase 6 verification:
+After fix:parser exit0 (touch-final-parser);run_all62930checks/0failures,exit0 (touch-final-core);full UI2075checks/0failures,exit0 (touch-full-ui),including existing I01-I07 tests and200-move bot. Dedicated expanded pipeline70checks/0failures,exit0 (touch-modal-regression). Uses Input.parse_input_event+flush,not Control method/signal calls. Tests cover intermediate/persisted volume,48dp height,4px jitter,pans from labels/toggles/card padding,picker/licence/modal scrolling,segment taps,Home pan vs tap,two-finger ownership and one drop each from native touch/physical mouse emulation.
 
-| Executed check | Result | Evidence |
+Build/export and all host APK checks exit0;install-r and launch exit0. Initial passive USB read failure is preserved;retry reads exit0. Real phone scrolling/slider confirmation awaits the user. Exact APK and files:TOUCH_INPUT_FIX.md. Older screenshot/stress/redesign qualification below is0.2.0 baseline,not a newly run0.2.1 pixel suite.
+
+---
+
+# Current test report ? 2026-11-15
+
+| Executed gate | Result | Evidence |
 |---|---|---|
-| Godot headless editor parser | PASS, exit 0; no script/parse error | build/evidence/phase6-final-parser.* |
-| Unit/integration suite | PASS, exit 0; 30963 checks, 0 failures | build/evidence/phase6-final-core.* |
-| Real OpenGL desktop UI suite | PASS, exit 0; UI: 1953 checks, 0 failures | build/evidence/phase6-final-ui.* |
-| UI drag-controller bot | PASS, 200 moves across 8 games in final run | same UI log |
-| Atlas regeneration | PASS, two executed bakes produce identical PNG SHA-256 | build/evidence/atlas-determinism.txt |
-| Board rendering | PASS desktop proxy; final maximum 111 us over repeated 64-cell draws, zero idle invalidations, no Resource increase | same UI log |
-| Review screen capture | PASS generation, exit 0; 158 screen fixtures at seven sizes and larger text samples | build/evidence/phase6-review-capture.* |
-| Locale contact sheet | PASS generation, exit 0; 780x1688 | build/evidence/phase6-contact.* |
-| Human visual approval | BLOCKED, awaiting written user review | docs/review/REVIEW_PACK_1/index.md |
+| Fresh requested parser/core/UI baseline | All exit0;62555 core checks,2001 UI checks,0 failures | build/evidence/resume-nov15-* |
+| Phase9 parser | Exit0,no SCRIPT ERROR/Parse Error | build/evidence/phase9-final-parser.* |
+| Phase9 final checksum/core | Exit0;62930 checks,0 failures,0 blocked suites | build/evidence/phase9-checksum-final-core.* |
+| Phase9 actual OpenGL UI | Exit0;UI:2001 checks,0 failures | build/evidence/phase9-final-ui.* |
+| Fractional-time independent probe | 10000 roundtrips,exit0 | build/evidence/phase9-save-precision-fixed.* |
+| Real-UI rich-effects stress | 50 games+warmup,1840 drag moves,zero orphan nodes,stable52 nodes/105 resources,272124-byte growth | build/evidence/stress-ui.json;phase9-stress.* |
+| Board renderer | 64-cell draw max206us,zero idle redraw requests in5seconds,no Resource growth | phase9-final-ui.stdout |
+| Original audio deterministic regeneration | All21 WAV SHA256 match;waveform/loop tests PASS | build/evidence/audio-determinism.txt |
+| Full bundled font coverage | All translated characters pass;16 locale chains | phase9-checksum-final-core.stdout |
+| Review2 complete capture | Exit0;538 screens,seven layout sizes,16 locales at four sizes | phase9-complete-capture.*;review/REVIEW_PACK_2/index.md |
 
-The UI suite executes real screen controls, navigation/modals, reset/restart confirmation, fixture statistics, independent classic/daily flow and rollover, 16 live language choices, drag ownership/invalid/cancel paths, real tutorial clear, actual bus mute/volume settings, type sizes and horizontal bounds at seven window sizes, injected safe areas, back routing and lifecycle save. Test profiles are isolated inside the workspace. The helper and both runners reject script errors even when the engine would otherwise exit 0.
+Regression comparison PASS:538 images,0failures,exit0; build/evidence/screenshot-regression.txt and phase9-final-diff.*. Independent repeat exit0. Tolerance remains3 per channel,at most0.5% differing pixels. Golden authority is explicit Review1 approval plus Review2 waiver; this is not native/audio/phone sign-off.
 
-Scope limits: U-08 full audio/haptic/FX observability is Phase 7; no generated audio/pattern/effect result is claimed. Fonts could not download from the approved official source and use built-in/system fallback. Only core non-English navigation strings are drafted; full localization and native review remain Phase 8. Physical-device results and Android exports are NOT RUN/BLOCKED as recorded in ACCEPTANCE_MATRIX.md. No new APK, device command, package-ID change, signing-key creation, upload or golden screenshot baseline occurred.
+The first screenshot comparison failed(106/339). Capture settings/profile resets,time-varying effects and stale notices were fixed. Instrumented capture exposed a real Godot fractional-double JSON checksum drift. Exact canonical-byte verification now supplements semantic verification,with parser-data equality against duplicate-key ambiguity. Added timed-tick,disk,tamper,nested/escaped/duplicate-key tests; no saved values are rounded. Failures are retained as evidence,not relabelled successful runs.
 
-Historical 10000-game balance evidence remains in BALANCE_REPORT.md; it was not rerun for these UI changes. Older prototype reports are explicitly historical. Current evidence and resume instructions are CODEX_PROGRESS.md and ACCEPTANCE_MATRIX.md. The complete product Definition of Done is not yet satisfied; this checkpoint is the requested Phase 6 human review gate.
+Both runners catch engine/script errors and exit nonzero; intentional failing-check/runtime-error probes are retained in baseline evidence. Only observed Windows system-directory/certificate-store environment warnings are exempted. No project script failure is accepted. All tests use isolated save paths; external player profiles were not touched.
+
+Desktop stress frame times include the greedy bot's synchronous search and one rendered frame per move; they cannot establish phone FPS or human-play timing. Phone lifecycle/feel/safe-area,three-minute performance and20-minute crash/thermal checks remain BLOCKED pending manual interaction. Audio quality and native translation review remain BLOCKED(user). Required lossless512x768 RGBA8+mipmaps is about2MiB and cannot also meet1.6MiB; BLOCKED(spec conflict).
+
+## Final disposition
+
+Final post-Thai-restoration core:62930checks,0failures,0blocked suites,exit0(done-core). UI:2005checks,0failures,exit0(done-ui),including replacement-root lifecycle board/tray/stream/score restore. Final screenshots:538captures,then538comparisons,0failures,exit0(done-capture/done-diff). Channel tolerance3 and0.5% limit unchanged;golden images unchanged. First post-subset5failures and next4Thai-only failures are retained in progress;final resolution retains original Thai shards and settles Settings scrolling. Parser/export exit0 before final build. Final64-cell redraw max247us,zero idle requests.
+
+Final Android host verification:aapt badging/permissions/xmltree,apksigner v2/v3,zipalign16KB,ELF loads and actual ZIP exclusions all PASS,exit0. APK33064058bytes,31.5323MiB;exactSHA in ANDROID_TEST_REPORT. Authorized final install/launch/passive evidence exit0;no app-PID script/parse/fatal in short window. Phone manual performance/lifecycle/feel,audio/native review,signedAAB,user/privacy/Play/store-art and startup qualification remain BLOCKED;see matrix. No global system crash was called an app crash.

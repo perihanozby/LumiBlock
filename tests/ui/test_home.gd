@@ -18,10 +18,16 @@ func run(t) -> void:
 	t.check_eq(root.router.current_id,"daily","daily opens")
 	root.router.back()
 	root.router.settle_transition()
-	var daily_card: Control=root.router.current.labels["daily.mission"].get_parent().get_parent()
-	var touch:=InputEventScreenTouch.new()
-	touch.pressed=true
-	daily_card.gui_input.emit(touch)
+	for frame in 4: await t.get_tree().process_frame
+	var card_point: Vector2=root.router.current.labels["daily.date"].get_global_rect().get_center()
+	for pressed in [true,false]:
+		var touch:=InputEventScreenTouch.new()
+		touch.index=0
+		touch.position=t.get_viewport().get_final_transform()*card_point
+		touch.pressed=pressed
+		Input.parse_input_event(touch)
+		Input.flush_buffered_events()
+		await t.get_tree().process_frame
 	root.router.settle_transition()
 	t.check_eq(root.router.current_id,"daily","entire daily card opens Daily")
 	root.router.back()

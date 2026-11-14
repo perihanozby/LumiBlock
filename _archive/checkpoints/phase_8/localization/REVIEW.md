@@ -1,0 +1,3 @@
+# Translation status
+
+Phase 8: all 135 source keys have complete machine-drafted entries in all 16 locale columns, including month names, rules, privacy, tutorial, errors and settings. Shared labels are deliberately reused. No native-speaker review has been performed; L-09 remains BLOCKED(user). English staging placeholders have been replaced. Font coverage remains BLOCKED(font) because the specified font downloads could not connect. A nonempty structural test or screenshot is not native translation or glyph-coverage approval. Review #2 was explicitly waived by the user; its captures are evidence, not a new human sign-off.

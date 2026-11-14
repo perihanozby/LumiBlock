@@ -7,6 +7,10 @@ signal pressed_action
 @export var large := false
 var press_tween: Tween
 
+func _init() -> void:
+	# Ancestor ScrollContainer may cancel a press when it becomes a pan.
+	mouse_filter=Control.MOUSE_FILTER_PASS
+
 func _ready() -> void:
 	custom_minimum_size=Vector2(Tokens.TOUCH,Tokens.BUTTON_L if large else Tokens.TOUCH)
 	theme_type_variation="LB_"+variant

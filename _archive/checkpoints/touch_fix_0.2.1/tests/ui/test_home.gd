@@ -1,0 +1,48 @@
+extends RefCounted
+
+const MenuTools = preload("res://tests/ui/menu_test_tools.gd")
+
+func run(t) -> void:
+	var root=MenuTools.fixture(t)
+	t.check(root.router.current.controls.has("home.play"),"new profile offers play")
+	t.check(not root.router.current.controls.has("home.continue"),"no continue without active game")
+	MenuTools.click(t,root,"home.stats")
+	t.check_eq(root.router.current_id,"stats","stats opens")
+	root.router.back()
+	root.router.settle_transition()
+	MenuTools.click(t,root,"home.settings")
+	t.check_eq(root.router.current_id,"settings","settings opens")
+	root.router.back()
+	root.router.settle_transition()
+	MenuTools.click(t,root,"home.daily")
+	t.check_eq(root.router.current_id,"daily","daily opens")
+	root.router.back()
+	root.router.settle_transition()
+	for frame in 4: await t.get_tree().process_frame
+	var card_point: Vector2=root.router.current.labels["daily.date"].get_global_rect().get_center()
+	for pressed in [true,false]:
+		var touch:=InputEventScreenTouch.new()
+		touch.index=0
+		touch.position=t.get_viewport().get_final_transform()*card_point
+		touch.pressed=pressed
+		Input.parse_input_event(touch)
+		Input.flush_buffered_events()
+		await t.get_tree().process_frame
+	root.router.settle_transition()
+	t.check_eq(root.router.current_id,"daily","entire daily card opens Daily")
+	root.router.back()
+	root.router.settle_transition()
+	MenuTools.click(t,root,"home.play")
+	t.check_eq(root.router.current_id,"tutorial","first play opens real tutorial")
+	MenuTools.click(t,root,"tutorial.skip")
+	t.check_eq(root.router.current_id,"game","skip starts classic")
+	root.show_screen("home")
+	root.router.settle_transition()
+	t.check(root.router.current.controls.has("home.continue"),"active session offers continue")
+	MenuTools.click(t,root,"home.new_game")
+	MenuTools.click(t,root,"common.cancel")
+	t.check(root.resumable("classic"),"cancel new game preserves active session")
+	MenuTools.click(t,root,"home.continue")
+	t.check_eq(root.router.current_id,"game","continue restores game")
+	root.queue_free()
+	await t.get_tree().process_frame

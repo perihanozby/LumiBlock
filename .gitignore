@@ -12,3 +12,4 @@ secrets/
 .android-sdk-home/
 .runtime/
 tests/last_run.txt
+android/build/

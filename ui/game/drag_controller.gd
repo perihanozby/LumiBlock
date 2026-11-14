@@ -35,6 +35,8 @@ func _input(event: InputEvent) -> void:
 	handle(event)
 
 func handle(event: InputEvent) -> void:
+	# Both pointing-emulation directions are enabled. The touch index is the
+	# sole owner; synthesized/physical mouse events must never place a piece.
 	if not (event is InputEventScreenTouch or event is InputEventScreenDrag): return
 	if session==null or metrics.is_empty(): return
 	if state==State.DRAGGING:

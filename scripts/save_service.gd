@@ -23,7 +23,7 @@ func _ready() -> void:
 	add_child(timer)
 
 static func encode_payload(data: Dictionary) -> String:
-	return JSON.stringify({"schema":VERSION,"app_version":"0.2.0","saved_at":int(Time.get_unix_time_from_system()),"checksum":SaveSchema.checksum(data),"data":SaveSchema.canonical(data)},"",true,true)
+	return JSON.stringify({"schema":VERSION,"app_version":ProjectSettings.get_setting("application/config/version","0.2.0"),"saved_at":int(Time.get_unix_time_from_system()),"checksum":SaveSchema.checksum(data),"data":SaveSchema.canonical(data)},"",true,true)
 
 static func decode_payload(raw: String) -> Dictionary:
 	var parser := JSON.new()
@@ -31,10 +31,57 @@ static func decode_payload(raw: String) -> Dictionary:
 	var parsed: Variant = parser.data
 	if not parsed is Dictionary or not parsed.get("data") is Dictionary: return {}
 	if parsed.has("schema"):
-		if SaveSchema.numeric(parsed.schema)!=VERSION or parsed.get("checksum")!=SaveSchema.checksum(parsed.data): return {}
+		if SaveSchema.numeric(parsed.schema)!=VERSION: return {}
+		# Godot's decimal parser can shift a double by one ULP. Our writer hashes
+		# the exact canonical data bytes; verify those bytes as a fallback, without
+		# rounding gameplay data or weakening checksum coverage.
+		if parsed.get("checksum")!=SaveSchema.checksum(parsed.data):
+			var data_bytes:=raw_data_json(raw)
+			var extracted:=JSON.new()
+			if parsed.get("checksum")!=data_bytes.sha256_text() or extracted.parse(data_bytes)!=OK or extracted.data!=parsed.data: return {}
 		return SaveSchema.validate(parsed.data)
 	if SaveSchema.numeric(parsed.get("version",0))==1: return SaveMigrations.from_v1(parsed)
 	return {}
+
+static func raw_data_json(raw: String) -> String:
+	var depth:=0
+	var index:=0
+	while index<raw.length():
+		var character:=raw[index]
+		if character=='"':
+			var start:=index
+			index+=1
+			while index<raw.length():
+				if raw[index]=='\\': index+=2
+				elif raw[index]=='"': break
+				else: index+=1
+			var token:=raw.substr(start,index-start+1)
+			if depth==1 and token=='"data"':
+				var cursor:=index+1
+				while cursor<raw.length() and raw[cursor] in [" ","\t","\r","\n"]: cursor+=1
+				if cursor>=raw.length() or raw[cursor]!=":":
+					index+=1
+					continue
+				cursor+=1
+				while cursor<raw.length() and raw[cursor] in [" ","\t","\r","\n"]: cursor+=1
+				var value_start:=cursor
+				var nested:=0
+				var quoted:=false
+				while cursor<raw.length():
+					var c:=raw[cursor]
+					if quoted:
+						if c=='\\': cursor+=1
+						elif c=='"': quoted=false
+					elif c=='"': quoted=true
+					elif c in ["{","["]: nested+=1
+					elif c in ["}","]"]:
+						nested-=1
+						if nested==0: return raw.substr(value_start,cursor-value_start+1)
+					cursor+=1
+		elif character in ["{","["]: depth+=1
+		elif character in ["}","]"]: depth-=1
+		index+=1
+	return ""
 
 func _announce(key: String) -> void:
 	last_notice=key

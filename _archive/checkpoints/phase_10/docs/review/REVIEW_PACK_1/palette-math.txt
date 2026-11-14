@@ -1,0 +1,16 @@
+title contrast 14.7163
+body contrast 10.0919
+muted contrast 5.7093
+primary contrast 9.7223
+secondary contrast 11.6684
+accent contrast 6.3299
+success contrast 9.0634
+error contrast 6.0315
+family 0 socket contrast 6.7123
+family 1 socket contrast 8.1211
+family 2 socket contrast 4.3858
+family 3 socket contrast 4.5575
+family 4 socket contrast 6.2897
+minimum deltaE 35.9420 matrix=[]
+minimum deltaE 24.2370 matrix=[(0.367322, 0.860646, -0.227968), (0.280085, 0.672501, 0.047413), (-0.01182, 0.04294, 0.968881)]
+minimum deltaE 24.0864 matrix=[(0.152286, 1.052583, -0.204868), (0.114503, 0.786281, 0.099216), (-0.003882, -0.048116, 1.051998)]

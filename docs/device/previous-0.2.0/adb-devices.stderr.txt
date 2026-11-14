@@ -1,0 +1,1 @@
+11-15 00:49:59.260 12336 17932 F adb.exe : adb_utils.cpp:315 Cannot mkdir '\.android': Permission denied

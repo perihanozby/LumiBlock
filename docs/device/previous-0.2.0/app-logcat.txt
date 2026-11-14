@@ -1,0 +1,273 @@
+11-15 00:50:31.765  1691  2056 W PackageManager: Skipping provider name com.perih.lumiblock.fileprovider (in package com.perih.lumiblock): name already used by com.perih.lumiblock
+11-15 00:50:31.953  1691  2056 E ArtManagerService: Failed to prepare profile for com.perih.lumiblock:/data/app/~~QFnuwbjl6gcIEzsqxHrU1A==/com.perih.lumiblock-Sfz6-Pj7DSJ1u1MleqTM4g==/base.apk
+11-15 00:50:31.954  1691  2056 I InstallationStatistic: com.perih.lumiblock|null|17190|927|71|1184|14290|0
+11-15 00:50:31.954  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.954  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:31.955  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:50:32.002  1691  2283 I MiuiCompatModePackages: package com.perih.lumiblock updated, removing config
+11-15 00:50:32.024  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+11-15 00:50:32.024  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+11-15 00:50:32.024  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+11-15 00:50:32.037  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:50:32.038  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:50:32.048  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+11-15 00:50:32.048  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 00:50:32.055  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.vsm.sdk.receiver.PackageBroadcastReceiver
+11-15 00:50:32.061  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.sdk.wp.core.siteadvisor.service.SiteAdvisorReceiver
+11-15 00:50:32.084  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x5000010 pkg=com.google.android.packageinstaller (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:50:32.277  1691  4904 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.perih.lumiblock/com.godot.game.GodotAppLauncher} from uid 2000
+11-15 00:50:32.476  1691  1845 I ActivityManager: Start proc 4211:com.perih.lumiblock/u0a738 for pre-top-activity {com.perih.lumiblock/com.godot.game.GodotAppLauncher} caller=com.android.shell
+11-15 00:50:33.599  4211  4211 W Looper  : PerfMonitor looperActivity : package=com.perih.lumiblock/com.godot.game.GodotAppLauncher time=554ms latency=336ms running=346ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem } historyMsgCount=3 (msgIndex=3 wall=315ms seq=3 running=141ms runnable=88ms io=20ms late=23ms h=android.app.ActivityThread$H w=110)
+11-15 00:50:33.600  4211  4211 W Looper  : PerfMonitor looperActivity : package=com.perih.lumiblock/com.godot.game.GodotAppLauncher time=1ms latency=889ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=4 (msgIndex=3 wall=315ms seq=3 running=141ms runnable=88ms io=20ms late=23ms h=android.app.ActivityThread$H w=110) (msgIndex=4 wall=554ms seq=4 running=346ms runnable=87ms io=32ms reclaim=8ms late=336ms h=android.app.ActivityThread$H w=159)
+11-15 00:50:33.641  1691  1844 W XSpaceManagerService: update XSpace App: packageName:com.perih.lumiblock, user:UserHandle{0}, action:android.intent.action.PACKAGE_ADDED
+11-15 00:50:35.429  1691  1814 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ebed983 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher t1453} time:14123761
+11-15 00:50:37.472  1368  4172 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.perih.lumiblock/2/com.godot.game.GodotAppLauncher/raw_traces/1794693037464476543.perfetto_trace.pb
+11-15 00:56:49.955  1691  1844 I ActivityManager: Force stopping com.perih.lumiblock appid=10738 user=-1: installPackageLI
+11-15 00:56:49.955  1691  2056 I PackageManager: Update package com.perih.lumiblock code path from /data/app/~~QFnuwbjl6gcIEzsqxHrU1A==/com.perih.lumiblock-Sfz6-Pj7DSJ1u1MleqTM4g== to /data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==; Retain data and using new
+11-15 00:56:49.955  1691  2056 I PackageManager: Update package com.perih.lumiblock resource path from /data/app/~~QFnuwbjl6gcIEzsqxHrU1A==/com.perih.lumiblock-Sfz6-Pj7DSJ1u1MleqTM4g== to /data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==; Retain data and using new
+11-15 00:56:49.957  1691  1844 I ActivityManager: Killing 4211:com.perih.lumiblock/u0a738 (adj 0): stop com.perih.lumiblock due to installPackageLI
+11-15 00:56:49.959  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.959  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.959  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.959  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.959  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.959  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.959  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.960  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{c265c65 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:49.960  1691  2056 W PackageManager: Skipping provider name com.perih.lumiblock.fileprovider (in package com.perih.lumiblock): name already used by com.perih.lumiblock
+11-15 00:56:49.962  1691  1844 W ActivityTaskManager: Force removing ActivityRecord{ebed983 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher t1453 f}}: app died, no saved state
+11-15 00:56:50.149  1691  2056 E ArtManagerService: Failed to prepare profile for com.perih.lumiblock:/data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk
+11-15 00:56:50.157  1691  2056 I InstallationStatistic: com.perih.lumiblock|null|19190|1010|65|1256|16152|0
+11-15 00:56:50.158  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.160  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.161  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.161  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.161  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.161  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.161  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.162  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 00:56:50.185  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:56:50.186  1691  2056 I ActivityManager: Force stopping com.perih.lumiblock appid=10738 user=0: pkg removed
+11-15 00:56:50.226  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+11-15 00:56:50.227  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.chrome/org.chromium.chrome.browser.browserservices.InstalledWebappBroadcastReceiver
+11-15 00:56:50.227  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+11-15 00:56:50.227  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:56:50.258  1691  2283 I MiuiCompatModePackages: package com.perih.lumiblock updated, removing config
+11-15 00:56:50.310  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:56:50.310  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 00:56:50.311  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:56:50.326  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:56:50.335  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:56:50.335  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+11-15 00:56:50.335  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.vsm.sdk.receiver.PackageBroadcastReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.sdk.wp.core.siteadvisor.service.SiteAdvisorReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+11-15 00:56:50.336  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 00:56:50.337  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:56:50.337  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+11-15 00:56:50.337  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+11-15 00:56:50.348  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.vsm.sdk.receiver.PackageBroadcastReceiver
+11-15 00:56:50.348  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.sdk.wp.core.siteadvisor.service.SiteAdvisorReceiver
+11-15 00:56:50.410  1691  2227 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.perih.lumiblock/com.godot.game.GodotAppLauncher} from uid 2000
+11-15 00:56:50.508  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 pkg=com.android.vending (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:56:50.633  1691  1845 I ActivityManager: Start proc 6318:com.perih.lumiblock/u0a738 for pre-top-activity {com.perih.lumiblock/com.godot.game.GodotAppLauncher} caller=com.android.shell
+11-15 00:56:50.678  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:56:50.801  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 pkg=com.android.vending (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:56:50.847  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x4000010 pkg=com.perih.lumiblock (has extras) }: user 10 and its parent (if any) are stopped
+11-15 00:56:51.558  6318  6318 W Looper  : PerfMonitor looperActivity : package=com.perih.lumiblock/com.godot.game.GodotAppLauncher time=0ms latency=798ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=2 (msgIndex=1 wall=279ms seq=3 running=152ms runnable=56ms io=1ms late=1ms h=android.app.ActivityThread$H w=110) (msgIndex=2 wall=534ms seq=4 running=316ms runnable=61ms late=264ms h=android.app.ActivityThread$H w=159)
+11-15 00:56:51.963  1691  5020 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+11-15 00:56:51.965  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 00:56:52.012  1691  1814 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{6761173 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher t1457} time:14500345
+11-15 00:56:55.641  1368  6305 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.perih.lumiblock/2/com.godot.game.GodotAppLauncher/raw_traces/1794693415636704784.perfetto_trace.pb
+11-15 01:02:26.570 29432  7151 I Finsky  : [4950] VerifyApps: PAM result saving to datastore delayed for package: com.perih.lumiblock
+11-15 01:02:26.570 29432  7149 I Finsky  : [4949] VerifyApps: firstScanResult for package=com.perih.lumiblock: 0
+11-15 01:02:40.694 29432  7149 I Finsky  : [4949] VerifyApps V31SignatureVerification: Successful verification for the package: com.perih.lumiblock using APK Signature Scheme v3.1
+11-15 01:02:40.716 29432 29432 I Finsky  : [2] VerifyApps: Install-time verification complete: id=4, package_name=com.perih.lumiblock
+11-15 01:02:40.838  1691  1844 I ActivityManager: Force stopping com.perih.lumiblock appid=10738 user=-1: installPackageLI
+11-15 01:02:40.839  1691  2056 I PackageManager: Update package com.perih.lumiblock code path from /data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ== to /data/app/~~b8DlsduoBN6nk5AFuXPCwg==/com.perih.lumiblock-Dj3waIddWyAWgDJrwxWSAw==; Retain data and using new
+11-15 01:02:40.839  1691  2056 I PackageManager: Update package com.perih.lumiblock resource path from /data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ== to /data/app/~~b8DlsduoBN6nk5AFuXPCwg==/com.perih.lumiblock-Dj3waIddWyAWgDJrwxWSAw==; Retain data and using new
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.839  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{6764221 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:40.840  1691  1844 I ActivityManager: Killing 6318:com.perih.lumiblock/u0a738 (adj 0): stop com.perih.lumiblock due to installPackageLI
+11-15 01:02:40.840  1691  2056 W PackageManager: Skipping provider name com.perih.lumiblock.fileprovider (in package com.perih.lumiblock): name already used by com.perih.lumiblock
+11-15 01:02:40.843  1691  1844 W ActivityTaskManager: Force removing ActivityRecord{6761173 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher t1457 f}}: app died, no saved state
+11-15 01:02:40.861  1691  2746 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{842ca3a mode=1 rootTaskId=1457 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher}(1,1)  to null(0,0)
+11-15 01:02:40.984  4701 11189 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10089, mForegroundPid=2810, mLastForegroundPackageName='com.perih.lumiblock', mLastForegroundUid=10738, mLastForegroundPid=6318, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+11-15 01:02:40.984  4297  4324 I GST     : forePkg: com.miui.home, preForePkg: com.perih.lumiblock
+11-15 01:02:40.984  4325 15637 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10089, mForegroundPid=2810, mLastForegroundPackageName='com.perih.lumiblock', mLastForegroundUid=10738, mLastForegroundPid=6318, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+11-15 01:02:40.986  4325 15637 I GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.perih.lumiblock
+11-15 01:02:40.988  4325 15637 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10089, mForegroundPid=2810, mLastForegroundPackageName='com.perih.lumiblock', mLastForegroundUid=10738, mLastForegroundPid=6318, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+11-15 01:02:41.009  1363  2168 E cutils  : Failed to open(/data/misc/profiles/cur/10/com.perih.lumiblock/primary.prof): No such file or directory
+11-15 01:02:41.009  1363  2168 E installd: Failed to prepare /data/misc/profiles/cur/10/com.perih.lumiblock/primary.prof: No such file or directory
+11-15 01:02:41.009  1691  2056 E ArtManagerService: Failed to prepare profile for com.perih.lumiblock:/data/app/~~b8DlsduoBN6nk5AFuXPCwg==/com.perih.lumiblock-Dj3waIddWyAWgDJrwxWSAw==/base.apk
+11-15 01:02:41.012  1691  2056 I InstallationStatistic: com.perih.lumiblock|null|17924|990|65|715|15482|0
+11-15 01:02:41.015  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.015  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.015  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.015  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.015  1691  2056 I AppsFilter: interaction: PackageSetting{2255c96 com.example.lumiblock/10024} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.016  1691  2056 I AppsFilter: interaction: PackageSetting{1cd4c04 com.perihanozbay.echofold/10028} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.016  1691  2056 I AppsFilter: interaction: PackageSetting{aac5ed com.orbia.productivity/10737} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.016  1691  2056 I AppsFilter: interaction: PackageSetting{352ac22 com.awesomeproject/10463} -> PackageSetting{b79f2d2 com.perih.lumiblock/10738} BLOCKED
+11-15 01:02:41.059  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 01:02:41.059  1691  2056 I ActivityManager: Force stopping com.perih.lumiblock appid=10738 user=0: pkg removed
+11-15 01:02:41.090  1691  2241 D MiuiNetworkPolicyAppBuckets: updateAppPN packageName=com.perih.lumiblock,uid=10738,installed=false
+11-15 01:02:41.098  2810  2962 E InstallApkReceiver: uninstall:package:com.perih.lumiblock
+11-15 01:02:41.102 27642 27642 D AggregateListener: onPackageRemoved packageName:com.perih.lumiblock
+11-15 01:02:41.128  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+11-15 01:02:41.128  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.chrome/org.chromium.chrome.browser.browserservices.InstalledWebappBroadcastReceiver
+11-15 01:02:41.128  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+11-15 01:02:41.128  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+11-15 01:02:41.145  1691  2283 I MiuiCompatModePackages: package com.perih.lumiblock updated, removing config
+11-15 01:02:41.153  1691  2241 D MiuiNetworkPolicyAppBuckets: updateAppPN packageName=com.perih.lumiblock,uid=10738,installed=true
+11-15 01:02:41.155  2810  2962 E InstallApkReceiver: install:package:com.perih.lumiblock
+11-15 01:02:41.166  4325  5119 D AppInstalledReceiver: packageName: com.perih.lumiblock
+11-15 01:02:41.169  2419  2419 W MiuiFullScreenGestureProxy: packageMonitor   onPackageModified  packageName=com.perih.lumiblock
+11-15 01:02:41.176  2755  2755 D ImsResolver: maybeAddedImsService, packageName: com.perih.lumiblock
+11-15 01:02:41.186 29432 29432 I Finsky  : [2] AIM: AppInfoCacheUpdater -> invalidating apps: [com.perih.lumiblock]
+11-15 01:02:41.190  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+11-15 01:02:41.202 29432 29555 I Finsky  : [4819] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.perih.lumiblock]
+11-15 01:02:41.211  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 01:02:41.211  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+11-15 01:02:41.212  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+11-15 01:02:41.213  6271  6271 I PI-ScanDispatch: service bind, pkgName = com.perih.lumiblock, installer = unknown, isReplace = true, firstGoogleTime = 1724788763116
+11-15 01:02:41.219  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 01:02:41.250  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 pkg=com.android.vending (has extras) }: user 10 and its parent (if any) are stopped
+11-15 01:02:41.252  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+11-15 01:02:41.253  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.vsm.sdk.receiver.PackageBroadcastReceiver
+11-15 01:02:41.253  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.sdk.wp.core.siteadvisor.service.SiteAdvisorReceiver
+11-15 01:02:41.253  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+11-15 01:02:41.253  6366  6582 I Finsky:background: [5312] IQ:PSL: skipping onPackageRemoved(replacing=true) for untracked package=com.perih.lumiblock
+11-15 01:02:41.257  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+11-15 01:02:41.260  1691  2316 E AppScanObserverService: Try to add a invalid package: com.perih.lumiblock | 10738 | 0
+11-15 01:02:41.274  1691  2227 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.perih.lumiblock/com.godot.game.GodotAppLauncher} from uid 2000
+11-15 01:02:41.299   990   990 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.perih.lumiblock feature:AppClassifier feedback = 0
+11-15 01:02:41.302   990  1027 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.perih.lumiblock,-1,1691,2227)
+11-15 01:02:41.302   990  1027 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.perih.lumiblock,-1,1691,2227)
+11-15 01:02:41.306  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+11-15 01:02:41.306  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+11-15 01:02:41.306  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+11-15 01:02:41.306  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+11-15 01:02:41.307  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 01:02:41.316  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+11-15 01:02:41.317  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+11-15 01:02:41.394  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) }: user 10 and its parent (if any) are stopped
+11-15 01:02:41.397 29432 29432 I Finsky  : [2] AIM: AppInfoCacheUpdater -> invalidating apps: [com.perih.lumiblock]
+11-15 01:02:41.403 29432  7219 I Finsky  : [4959] Asset module broadcast after update successful for package com.perih.lumiblock.
+11-15 01:02:41.405  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+11-15 01:02:41.422  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.vsm.sdk.receiver.PackageBroadcastReceiver
+11-15 01:02:41.440  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.wsandroid.suite/com.mcafee.sdk.wp.core.siteadvisor.service.SiteAdvisorReceiver
+11-15 01:02:41.441  1691  1813 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x10000000 cmp=com.perih.lumiblock/com.godot.game.GodotAppLauncher }
+11-15 01:02:41.450  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 pkg=com.android.vending (has extras) }: user 10 and its parent (if any) are stopped
+11-15 01:02:41.485  1691  2056 W ActivityManager: Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x4000010 pkg=com.perih.lumiblock (has extras) }: user 10 and its parent (if any) are stopped
+11-15 01:02:41.491  2810  3108 W ziparchive: Unable to open '/data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk': No such file or directory
+11-15 01:02:41.491  2810  3108 E com.miui.home: Failed to open APK '/data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk' I/O error
+11-15 01:02:41.491  2810  3108 E ResourcesManager: failed to add asset path /data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk
+11-15 01:02:41.491  2810  3108 W PackageManager: Failure retrieving resources for com.perih.lumiblock
+11-15 01:02:41.492  2810  3108 W ziparchive: Unable to open '/data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk': No such file or directory
+11-15 01:02:41.492  2810  3108 E com.miui.home: Failed to open APK '/data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk' I/O error
+11-15 01:02:41.492  2810  3108 E ResourcesManager: failed to add asset path /data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk
+11-15 01:02:41.492  2810  3108 W PackageManager: Failure retrieving resources for com.perih.lumiblock
+11-15 01:02:41.492  2810  3108 W ziparchive: Unable to open '/data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk': No such file or directory
+11-15 01:02:41.492  2810  3108 E com.miui.home: Failed to open APK '/data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk' I/O error
+11-15 01:02:41.492  2810  3108 E ResourcesManager: failed to add asset path /data/app/~~HCUQekSq5AWD2P4DbySZyw==/com.perih.lumiblock-kIOqiTbuRtDgAQbU2vMNQQ==/base.apk
+11-15 01:02:41.492  2810  3108 W PackageManager: Failure retrieving resources for com.perih.lumiblock
+11-15 01:02:41.523  7263  7263 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+11-15 01:02:41.525  1691  1845 I ActivityManager: Start proc 7263:com.perih.lumiblock/u0a738 for pre-top-activity {com.perih.lumiblock/com.godot.game.GodotAppLauncher} caller=com.android.shell
+11-15 01:02:41.533  7263  7263 I perih.lumibloc: Late-enabling -Xcheck:jni
+11-15 01:02:41.536  1691  2746 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+11-15 01:02:41.538  1691  1844 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.perih.lumiblock flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-15 01:02:41.566  7263  7263 I perih.lumibloc: Unquickening 20 vdex files!
+11-15 01:02:41.598 25133  7280 W SQLiteLog: (28) double-quoted string literal: "com.perih.lumiblock"
+11-15 01:02:41.610   990  1027 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,com.perih.lumiblock,7263,1691,4799)
+11-15 01:02:41.620  4297  4324 I GST     : forePkg: com.perih.lumiblock, preForePkg: com.miui.home
+11-15 01:02:41.620  4325  5491 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.perih.lumiblock', mForegroundUid=10738, mForegroundPid=7263, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10089, mLastForegroundPid=2810, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+11-15 01:02:41.620  4701 21017 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.perih.lumiblock', mForegroundUid=10738, mForegroundPid=7263, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10089, mLastForegroundPid=2810, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+11-15 01:02:41.621 31345 31370 D AutoInstallService: onForegroundInfoChanged: com.perih.lumiblock
+11-15 01:02:41.622  4325  5491 I GameBoosterService: onForegroundInfoChanged: Cur=com.perih.lumiblock	 last=com.miui.home
+11-15 01:02:41.625  4325  5491 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.perih.lumiblock', mForegroundUid=10738, mForegroundPid=7263, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10089, mLastForegroundPid=2810, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+11-15 01:02:41.679  2810  2810 D Launcher.Model: LauncherAppsCallback onPackageChanged|com.perih.lumiblock|UserHandle{0}
+11-15 01:02:41.680  2810  3031 D Launcher.Model: Got broadcast:Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.perih.lumiblock (has extras) }
+11-15 01:02:41.695  2810  3031 D IconCustomizer: Generate customized icon for com.perih.lumiblock.png
+11-15 01:02:41.703  2810  3031 D Launcher.AllAppsList: updatePackage, packageName=com.perih.lumiblock, loadMissing=false, user=UserHandle{0}, matchedSize=1
+11-15 01:02:41.705  2810  3031 D Launcher.AllAppsList: updatePackage, find appInfo=AppInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1, isLandscapePos=false from ComponentInfo{com.perih.lumiblock/com.godot.game.GodotAppLauncher}
+11-15 01:02:41.706  2810  3031 D Launcher.Model: onReceiveBackground, mAllAppsList=add=[], remove=[], modified=[(0, AppInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.perih.lumiblock, className=com.godot.game.GodotAppLauncher, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1, isLandscapePos=false)]
+11-15 01:02:41.749 29432 29552 I Finsky  : [4817] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.perih.lumiblock]
+11-15 01:02:41.796  7263  7263 I Perf    : Connecting to perf service.
+11-15 01:02:41.808  7263  7263 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-15 01:02:41.809  7263  7263 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-15 01:02:41.824   990   990 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.perih.lumiblock feature:AppClassifier feedback = 0
+11-15 01:02:41.878  7263  7263 D View    : com.perih.lumiblock initForcedUseForceDark: 1
+11-15 01:02:41.884  7263  7263 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+11-15 01:02:41.884  7263  7263 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+11-15 01:02:41.895  7263  7263 D GodotActivity: Project command line parameters: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-15 01:02:41.896  7263  7263 D GodotActivity: Launch intent Intent { flg=0x10000000 cmp=com.perih.lumiblock/com.godot.game.GodotAppLauncher } with parameters []
+11-15 01:02:41.919  7263  7263 V GodotActivity: Creating new Godot fragment instance.
+11-15 01:02:41.960  7263  7263 V Godot   : Initializing Godot plugin registry
+11-15 01:02:41.984  7263  7263 I GodotPluginRegistry: Registering runtime plugin AndroidRuntime
+11-15 01:02:41.985  7263  7263 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-15 01:02:41.991  7263  7263 W linker  : Warning: "/data/app/~~b8DlsduoBN6nk5AFuXPCwg==/com.perih.lumiblock-Dj3waIddWyAWgDJrwxWSAw==/lib/arm64/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+11-15 01:02:42.001  7263  7263 V Godot   : Godot native layer initialization completed: true
+11-15 01:02:42.002  7263  7263 V Godot   : Setting up native layer with params: [--xr-mode, off, --fullscreen]
+11-15 01:02:42.031  7263  7263 V Godot   : Godot native layer setup completed
+11-15 01:02:42.032  7263  7263 V Godot   : OnInitRenderView: GodotFragment{c38499c} (90408f79-ffa9-42de-b363-7bd7be5f6f6f id=0x7f07002c)
+11-15 01:02:42.049  7263  7263 D Godot   : Render view should be transparent: false
+11-15 01:02:42.050  7263  7263 D Godot   : renderingDevice: opengl3 (ProjectSettings)
+11-15 01:02:42.050  7263  7263 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+11-15 01:02:42.067  2419 28982 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=104][pkg = com.perih.lumiblock[enable_config = true
+11-15 01:02:42.087  7263  7263 V Godot   : OnStart: GodotFragment{c38499c} (90408f79-ffa9-42de-b363-7bd7be5f6f6f id=0x7f07002c)
+11-15 01:02:42.092  7263  7263 V Godot   : OnResume: GodotFragment{c38499c} (90408f79-ffa9-42de-b363-7bd7be5f6f6f id=0x7f07002c)
+11-15 01:02:42.108  7263  7263 W Looper  : PerfMonitor looperActivity : package=com.perih.lumiblock/com.godot.game.GodotAppLauncher time=1ms latency=472ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=4 (msgIndex=3 wall=185ms seq=3 running=157ms runnable=13ms late=15ms h=android.app.ActivityThread$H w=110) (msgIndex=4 wall=283ms seq=4 running=237ms runnable=18ms late=189ms h=android.app.ActivityThread$H w=159)
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: QUALCOMM build                   : 559e78c, Ib9d997268a
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: Build Date                       : 10/13/20
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.02
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: Local Branch                     : 
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: Remote Branch                    : 
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: Remote Branch                    : 
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: Reconstruct Branch               : 
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+11-15 01:02:42.132  7263  7324 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+11-15 01:02:42.139  7263  7324 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+11-15 01:02:42.144  7263  7263 D SurfaceView: UPDATE null, mIsCastMode = false
+11-15 01:02:42.154  7263  7338 W RegularContextFactory: creating OpenGL ES 3.0 context :
+11-15 01:02:42.157  7263  7338 I godot   : Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+11-15 01:02:42.268  7263  7338 I godot   : OpenGL API OpenGL ES 3.2 V@0502.0 (GIT@559e78c, Ib9d997268a, 1602616325) (Date:10/13/20) - Compatibility - Using Device: Qualcomm - Adreno (TM) 618
+11-15 01:02:42.269  7263  7338 D perih.lumibloc: PlayerBase::PlayerBase()
+11-15 01:02:42.270  7263  7338 D perih.lumibloc: TrackPlayerBase::TrackPlayerBase()
+11-15 01:02:42.270  7263  7338 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-15 01:02:42.302  7263  7338 D AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 1772
+11-15 01:02:42.338  7263  7338 I godot   : 
+11-15 01:02:42.513  1691  1814 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{5f9f5da u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher t1459} time:14850846
+11-15 01:02:42.513  1691  1842 D ArtManagerInternalImpl: /data/misc/iorapd/com.perih.lumiblock/2/com.godot.game.GodotAppLauncher/compiled_traces/compiled_trace.pb doesn't exist
+11-15 01:02:42.516  1691  1842 I ActivityTaskManager: Displayed com.perih.lumiblock/com.godot.game.GodotAppLauncher: +1s242ms
+11-15 01:02:42.516   990   990 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.perih.lumiblock feature:AppClassifier feedback = 0
+11-15 01:02:42.516  1691  2227 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{ac8445f mode=1 rootTaskId=1459 u0 com.perih.lumiblock/com.godot.game.GodotAppLauncher}(1,1)
+11-15 01:02:42.530  3585  3585 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=com.perih.lumiblock, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-15 01:02:43.100  7263  7338 V Godot   : OnGodotSetupCompleted
+11-15 01:02:43.200  7263  7338 I godot   : LUMIBLOCK_SAFE_AREA physical=(1080.0, 2400.0) raw=[P: (0, 102), S: (1080, 2298)] logical=[P: (0.0, 36.805), S: (390.0, 829.195)] viewport=(390.0, 866.0)
+11-15 01:02:43.219  7263  7338 V Godot   : OnGodotMainLoopStarted
+11-15 01:02:44.185 29432 29533 W Finsky  : [4815] VerifyApps: APK Analysis scan cancelled for com.perih.lumiblock.
+11-15 01:02:44.185 29432 29533 I Finsky  : [4815] VerifyApps: APK Analysis scan finished for com.perih.lumiblock. Verdict: 0
+11-15 01:02:44.253  1053  1053 W Layer   : [Bounds for - com.perih.lumiblock/com.godot.game.GodotAppLauncher#0] sync point 25 wait timeout 1007942656 for com.perih.lumiblock/com.godot.game.GodotAppLauncher#0
+11-15 01:02:45.254  1053  1053 W Layer   : [Bounds for - com.perih.lumiblock/com.godot.game.GodotAppLauncher#0] sync point 25 wait timeout 2009538176 for com.perih.lumiblock/com.godot.game.GodotAppLauncher#0
+11-15 01:02:45.302  7263  7341 I perih.lumibloc: Explicit concurrent copying GC freed 4520(203KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 2455KB/4911KB, paused 102us total 31.766ms

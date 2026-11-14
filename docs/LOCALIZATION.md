@@ -1,6 +1,7 @@
-﻿> Historical prototype report. This is not current-session acceptance evidence. See [CODEX_PROGRESS.md](CODEX_PROGRESS.md) and [ACCEPTANCE_MATRIX.md](ACCEPTANCE_MATRIX.md) for the current implementation and executed results.
+# Localization ? current implementation
 
-# Localization
+135 keys have complete machine drafts in en, tr, es, pt-BR, fr, de, it, ja, ko, zh-CN, ar, hi, id, vi, ru and th. Sixteen imported translation resources are registered with English fallback. Every translated character passes bundled Manrope/Noto font-chain coverage; official OFL notices are in assets/fonts/LICENSES and exposed in About.
 
-The current CSV contains five canonical keys across all 16 target locales: `en`, `tr`, `es`, `pt-BR`, `fr`, `de`, `it`, `ja`, `ko`, `zh-CN`, `ar`, `hi`, `id`, `vi`, `ru`, and `th`. Generated Godot translation resources are present for each locale. The remaining player-facing labels in `scripts/main.gd` still need migration to keys, followed by RTL layout validation for Arabic and native-speaker review.
+Live locale changes relabel screens. Arabic menus and Back artwork mirror; board/tray/drag geometry and score digits remain LTR. LocaleFormat handles date/month/duration and Western grouping. Debug en_XA expands source strings about 40%; it is not offered in release. CSV is a debug/editor input and is excluded from Android; .translation resources ship.
 
+Machine drafts are not native review. L-09 remains BLOCKED(user); Arabic joining and translation quality require native readers. Review 2 was waived by the user. See review/REVIEW_PACK_2/index.md, FONTS.md and LOCALIZATION_STATUS.md.

@@ -20,8 +20,14 @@ func _ready() -> void:
 func run_all() -> void:
 	var logger=preload("res://tests/run_all.gd").ErrorCapture.new()
 	OS.add_logger(logger)
+	var selected:=""
+	for argument in OS.get_cmdline_user_args():
+		if argument.begins_with("--suite="): selected=argument.trim_prefix("--suite=")
+	var suites:=0
 	for file in DirAccess.get_files_at("res://tests/ui"):
 		if not file.begins_with("test_") or not file.ends_with(".gd"): continue
+		if selected!="" and file!=selected: continue
+		suites+=1
 		var isolated=SaveTools.service("ui_"+file.get_basename())
 		SaveService.save_path=isolated.save_path
 		isolated.free()
@@ -36,6 +42,7 @@ func run_all() -> void:
 		else: await script.new().run(self)
 		for error in logger.errors.slice(error_before): check(false,"engine error "+error)
 		print(("PASS " if before==failures else "FAIL ")+file)
+	check(suites>0,"at least one UI suite selected")
 	print("UI: %d checks, %d failures" % [checks,failures])
 	AudioService.stop_all()
 	await get_tree().create_timer(0.1).timeout

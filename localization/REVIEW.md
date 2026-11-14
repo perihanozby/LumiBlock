@@ -1,3 +1,5 @@
 # Translation status
 
-Phase 8: all 135 source keys have complete machine-drafted entries in all 16 locale columns, including month names, rules, privacy, tutorial, errors and settings. Shared labels are deliberately reused. No native-speaker review has been performed; L-09 remains BLOCKED(user). English staging placeholders have been replaced. Font coverage remains BLOCKED(font) because the specified font downloads could not connect. A nonempty structural test or screenshot is not native translation or glyph-coverage approval. Review #2 was explicitly waived by the user; its captures are evidence, not a new human sign-off.
+All135 source keys have complete machine-drafted entries in all16 locale columns,including months,rules,privacy,tutorial,errors and settings. Placeholders and live switching pass. English staging has been replaced. Every translated character passes bundled official Manrope/Noto font-chain coverage;original OFLs ship. Thai shards remain unmodified;other Noto fonts are locally subset.
+
+L-09 and Arabic native-joining quality remain BLOCKED(user):no native-speaker sign-off. Glyph presence and screenshots do not establish linguistic quality. Review1 direction was approved;Review2 was explicitly waived. Final core62930/0,UI2005/0,538-image regression0failures. See docs/FONTS.md,docs/LOCALIZATION_STATUS.md and docs/ACCEPTANCE_MATRIX.md.

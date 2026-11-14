@@ -8,6 +8,7 @@ var toast: LBToast
 var daily_date:=""
 var elapsed_since_save:=0.0
 var date_provider: Callable
+var seed_provider: Callable
 var quit_hook: Callable
 
 func _ready() -> void:
@@ -53,6 +54,8 @@ func _ready() -> void:
 	daily_date=today()
 	router.go("home",{},false)
 	_apply_theme()
+	if OS.is_debug_build() and "--perf-overlay" in OS.get_cmdline_user_args():
+		add_child(load("res://app/performance_overlay.gd").new())
 
 func _apply_theme() -> void:
 	theme=ThemeFactory.build(float(SettingsService.values.get("text_scale",1.0)),LocalizationService.ui_font)
@@ -121,7 +124,8 @@ func start_game(mode: String,new_game: bool = false) -> void:
 		tracker.finish(abandoned,SaveService.profile)
 	if not new_game and resumable(mode): session=GameSession.from_dict(SaveService.profile.sessions[mode])
 	else:
-		session=GameSession.new(int(Time.get_unix_time_from_system())+Time.get_ticks_usec(),mode,today() if mode=="daily" else "")
+		var seed_value: int=seed_provider.call() if seed_provider.is_valid() else int(Time.get_unix_time_from_system())+Time.get_ticks_usec()
+		session=GameSession.new(seed_value,mode,today() if mode=="daily" else "")
 		SaveService.profile.stats.games_started+=1
 		session.extra_fields["best_at_start"]=SaveService.profile.records.best_daily if mode=="daily" else SaveService.profile.records.best_classic
 	best_before=int(session.extra_fields.get("best_at_start",SaveService.profile.records.best_daily if mode=="daily" else SaveService.profile.records.best_classic))

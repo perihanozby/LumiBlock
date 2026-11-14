@@ -1,0 +1,77 @@
+﻿{
+    "KR":  [
+               "res://assets/fonts/NotoSansKR-000.woff2",
+               "res://assets/fonts/NotoSansKR-001.woff2",
+               "res://assets/fonts/NotoSansKR-002.woff2",
+               "res://assets/fonts/NotoSansKR-003.woff2",
+               "res://assets/fonts/NotoSansKR-004.woff2",
+               "res://assets/fonts/NotoSansKR-005.woff2",
+               "res://assets/fonts/NotoSansKR-006.woff2",
+               "res://assets/fonts/NotoSansKR-007.woff2",
+               "res://assets/fonts/NotoSansKR-008.woff2",
+               "res://assets/fonts/NotoSansKR-009.woff2",
+               "res://assets/fonts/NotoSansKR-010.woff2",
+               "res://assets/fonts/NotoSansKR-011.woff2"
+           ],
+    "JP":  [
+               "res://assets/fonts/NotoSansJP-000.woff2",
+               "res://assets/fonts/NotoSansJP-001.woff2",
+               "res://assets/fonts/NotoSansJP-002.woff2",
+               "res://assets/fonts/NotoSansJP-003.woff2",
+               "res://assets/fonts/NotoSansJP-004.woff2",
+               "res://assets/fonts/NotoSansJP-005.woff2",
+               "res://assets/fonts/NotoSansJP-006.woff2",
+               "res://assets/fonts/NotoSansJP-007.woff2",
+               "res://assets/fonts/NotoSansJP-008.woff2",
+               "res://assets/fonts/NotoSansJP-009.woff2",
+               "res://assets/fonts/NotoSansJP-010.woff2",
+               "res://assets/fonts/NotoSansJP-011.woff2",
+               "res://assets/fonts/NotoSansJP-012.woff2",
+               "res://assets/fonts/NotoSansJP-013.woff2",
+               "res://assets/fonts/NotoSansJP-014.woff2",
+               "res://assets/fonts/NotoSansJP-015.woff2",
+               "res://assets/fonts/NotoSansJP-016.woff2",
+               "res://assets/fonts/NotoSansJP-017.woff2",
+               "res://assets/fonts/NotoSansJP-018.woff2",
+               "res://assets/fonts/NotoSansJP-019.woff2",
+               "res://assets/fonts/NotoSansJP-020.woff2",
+               "res://assets/fonts/NotoSansJP-021.woff2",
+               "res://assets/fonts/NotoSansJP-022.woff2",
+               "res://assets/fonts/NotoSansJP-023.woff2",
+               "res://assets/fonts/NotoSansJP-024.woff2",
+               "res://assets/fonts/NotoSansJP-025.woff2",
+               "res://assets/fonts/NotoSansJP-026.woff2",
+               "res://assets/fonts/NotoSansJP-027.woff2",
+               "res://assets/fonts/NotoSansJP-028.woff2"
+           ],
+    "Arabic":  [
+                   "res://assets/fonts/NotoSansArabic-000.woff2",
+                   "res://assets/fonts/NotoSansArabic-001.woff2"
+               ],
+    "Thai":  [
+                 "res://assets/fonts/NotoSansThai-000.woff2",
+                 "res://assets/fonts/NotoSansThai-001.woff2"
+             ],
+    "Devanagari":  [
+                       "res://assets/fonts/NotoSansDevanagari-000.woff2",
+                       "res://assets/fonts/NotoSansDevanagari-001.woff2"
+                   ],
+    "SC":  [
+               "res://assets/fonts/NotoSansSC-000.woff2",
+               "res://assets/fonts/NotoSansSC-001.woff2",
+               "res://assets/fonts/NotoSansSC-002.woff2",
+               "res://assets/fonts/NotoSansSC-003.woff2",
+               "res://assets/fonts/NotoSansSC-004.woff2",
+               "res://assets/fonts/NotoSansSC-005.woff2",
+               "res://assets/fonts/NotoSansSC-006.woff2",
+               "res://assets/fonts/NotoSansSC-007.woff2",
+               "res://assets/fonts/NotoSansSC-008.woff2",
+               "res://assets/fonts/NotoSansSC-009.woff2",
+               "res://assets/fonts/NotoSansSC-010.woff2",
+               "res://assets/fonts/NotoSansSC-011.woff2",
+               "res://assets/fonts/NotoSansSC-012.woff2",
+               "res://assets/fonts/NotoSansSC-013.woff2",
+               "res://assets/fonts/NotoSansSC-014.woff2",
+               "res://assets/fonts/NotoSansSC-015.woff2"
+           ]
+}

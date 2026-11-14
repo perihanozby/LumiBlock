@@ -1,0 +1,139 @@
+{
+  "status": "COLLECTED_AFTER_USB_RECONNECT",
+  "commands": [
+    {
+      "command": [
+        "adb",
+        "devices"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "install",
+        "-r",
+        "build\\lumiblock-debug.apk"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "am",
+        "start",
+        "-n",
+        "com.perih.lumiblock/com.godot.game.GodotAppLauncher"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "screencap",
+        "-p"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "dumpsys",
+        "gfxinfo",
+        "com.perih.lumiblock"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "com.perih.lumiblock"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "logcat",
+        "-d"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "package": "com.perih.lumiblock",
+  "apk_sha256": "b0801228537b3186ec8a650082890ec882e86aa121c89ea36d9af91254038ecc",
+  "png_signature": true,
+  "scope": "Install/launch and passive evidence only. No manual checklist tick inferred.",
+  "initial_usb_read_attempt": [
+    {
+      "command": [
+        "adb",
+        "devices"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "install",
+        "-r",
+        "build\\lumiblock-debug.apk"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "am",
+        "start",
+        "-n",
+        "com.perih.lumiblock/com.godot.game.GodotAppLauncher"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "screencap",
+        "-p"
+      ],
+      "exit_code": 1
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "dumpsys",
+        "gfxinfo",
+        "com.perih.lumiblock"
+      ],
+      "exit_code": 1
+    },
+    {
+      "command": [
+        "adb",
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "com.perih.lumiblock"
+      ],
+      "exit_code": 1
+    },
+    {
+      "command": [
+        "adb",
+        "logcat",
+        "-d"
+      ],
+      "exit_code": 0
+    }
+  ]
+}
